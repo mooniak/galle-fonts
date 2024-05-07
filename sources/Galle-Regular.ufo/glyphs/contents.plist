@@ -1464,8 +1464,12 @@
 	<string>space.glif</string>
 	<key>three</key>
 	<string>three.glif</string>
+	<key>tmKa</key>
+	<string>tmK_a.glif</string>
 	<key>tmKa.001</key>
 	<string>tmK_a.001.glif</string>
+	<key>tmTa</key>
+	<string>tmT_a.glif</string>
 	<key>tmTa.001</key>
 	<string>tmT_a.001.glif</string>
 	<key>two</key>

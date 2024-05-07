@@ -14,7 +14,7 @@
 		<string>/sinHU.reph/sinHUu.reph</string>
 		<string>/sinThU</string>
 		<string>/NULL</string>
-		<string>/tmKa.001</string>
+		<string>க/tmKa.001</string>
 	</array>
 	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
 	<true/>
@@ -115,6 +115,8 @@
 		<string>sinvocalicLL</string>
 		<string>sinvocalicR</string>
 		<string>sinvocalicRr</string>
+		<string>tmKa</string>
+		<string>tmTa</string>
 		<string>ArchaicOne</string>
 		<string>ArchaicTwo</string>
 		<string>ArchaicThree</string>
@@ -1020,8 +1022,12 @@
 		<string>uni0D8D</string>
 		<key>sinvocalicRr</key>
 		<string>uni0D8E</string>
+		<key>tmKa</key>
+		<string>uni0B95</string>
 		<key>tmKa.001</key>
 		<string>uni0B95</string>
+		<key>tmTa</key>
+		<string>uni0BA4</string>
 		<key>tmTa.001</key>
 		<string>uni0BA4</string>
 		<key>visarga</key>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
+<dict>
+	<key>lib</key>
 	<dict>
-		<key>lib</key>
-		<dict>
-			<key>org.unifiedfontobject.normalizer.imageReferences</key>
-			<dict>
-			</dict>
-			<key>org.unifiedfontobject.normalizer.modTimes</key>
-			<string>version: 0.3.3.dev0
+		<key>org.unifiedfontobject.normalizer.imageReferences</key>
+		<dict/>
+		<key>org.unifiedfontobject.normalizer.modTimes</key>
+		<string>version: 0.3.3.dev0
 1535427679.0 A_rchaicE_ight.glif
 1535427680.0 A_rchaicE_ighty.glif
 1535427680.0 A_rchaicF_ifty.glif
@@ -871,6 +870,6 @@
 1535427679.0 zero.glif
 1535427679.0 zerowidthjoiner.glif
 1535427680.0 zwnj.glif</string>
-		</dict>
 	</dict>
+</dict>
 </plist>

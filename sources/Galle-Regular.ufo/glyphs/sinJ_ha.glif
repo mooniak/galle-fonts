@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sinJha" format="2">
-	<unicode hex="0DA3"/>
 	<advance width="786"/>
+	<unicode hex="0DA3"/>
 	<outline>
 		<contour>
 			<point x="85" y="196" type="curve" smooth="yes"/>

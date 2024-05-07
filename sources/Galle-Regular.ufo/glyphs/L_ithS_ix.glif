@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LithSix" format="2">
-	<unicode hex="0DEC"/>
 	<advance width="499"/>
+	<unicode hex="0DEC"/>
 	<outline>
 		<contour>
 			<point x="238" y="301" type="curve" smooth="yes"/>

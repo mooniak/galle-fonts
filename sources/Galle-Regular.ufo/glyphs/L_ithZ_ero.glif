@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LithZero" format="2">
-	<unicode hex="0DE6"/>
 	<advance width="291"/>
+	<unicode hex="0DE6"/>
 	<outline>
 		<contour>
 			<point x="100" y="0" type="line"/>

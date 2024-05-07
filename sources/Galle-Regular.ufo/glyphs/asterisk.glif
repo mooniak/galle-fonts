@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="asterisk" format="2">
-	<unicode hex="002A"/>
 	<advance width="312"/>
+	<unicode hex="002A"/>
 	<outline>
 		<contour>
 			<point x="138" y="198" type="line"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketright" format="2">
-	<unicode hex="005D"/>
 	<advance width="130"/>
+	<unicode hex="005D"/>
 	<outline>
 		<contour>
 			<point x="114" y="-179" type="line" smooth="yes"/>

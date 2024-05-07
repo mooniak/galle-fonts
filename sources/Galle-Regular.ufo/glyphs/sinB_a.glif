@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sinBa" format="2">
-	<unicode hex="0DB6"/>
 	<advance width="465"/>
+	<unicode hex="0DB6"/>
 	<outline>
 		<contour>
 			<point x="177" y="73" type="curve" smooth="yes"/>

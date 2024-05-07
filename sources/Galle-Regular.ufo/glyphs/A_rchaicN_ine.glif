@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ArchaicNine" format="2">
-	<unicode hex="111E9"/>
 	<advance width="869"/>
+	<unicode hex="111E9"/>
 	<outline>
 		<contour>
 			<point x="779" y="102" type="line" smooth="yes"/>

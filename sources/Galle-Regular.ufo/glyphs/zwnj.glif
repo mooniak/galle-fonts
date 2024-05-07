@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zwnj" format="2">
-	<unicode hex="200C"/>
 	<advance width="58"/>
+	<unicode hex="200C"/>
 	<outline>
 		<contour>
 			<point x="17" y="6" type="line"/>

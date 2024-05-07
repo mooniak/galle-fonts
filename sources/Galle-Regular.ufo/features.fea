@@ -1,163 +1,8 @@
-@TML_MATRA_U_1 = [ tmNga tmPa tmYa tmVa ];
-
-@TML_MATRA_I_1 = [ tmSsa tmKSsa ];
-
-@TML_MATRA_I_2 = [ tmJa tmMa tmRra tmLlla tmSha tmHa ];
-
-@TML_MATRA_I_3 = [ tmLa tmSa ];
-
-@TML_MATRA_I_4 = [ tmCa ];
-
-@TML_MATRA_I_5 = [ tmKa tmTa ];
-
-@TML_MATRA_I_6 = [ tmNya tmNa ];
-
-@TML_MATRA_I_7 = [ tmNga tmPa tmYa tmVa ];
-
-@TML_MATRA_Ii_1 = [ tmLa tmSa ];
-
 # Prefix: Languagesystems
 languagesystem DFLT dflt;
 languagesystem sinh dflt;
-languagesystem taml dflt;
-languagesystem tml2 dflt;
 
 # Prefix: prefix
-##--------------- Groups ---------------##
-##--------------- Independent Lookups ---------------##
-
-#---- AKHN ----
-lookup akhands {
-    sub tmKa tmVirama tmSsa by tmKSsa;
-    sub tmSha tmVirama tmRa tmMatraIi by tmShree;
-    sub tmSa tmVirama tmRa tmMatraIi by tmShree;
-} akhands;
-
-#---- ABVS ----
-lookup above_base_sub_1 {
-    sub tmTta tmMatraI by tmTtI;
-    sub tmTta tmMatraIi by tmTtIi;
-} above_base_sub_1;
-
-lookup above_base_sub_2 {
-    sub @TML_MATRA_Ii_1 tmMatraIi' by tmMatraIi.alt1;
- } above_base_sub_2;
-
-#---- PSTS ----
-lookup post_base_sub_1 {
-    sub tmKa tmMatraU by tmKU;
-    sub tmCa tmMatraU by tmCU;
-    sub tmNya tmMatraU by tmNyU;
-    sub tmTta tmMatraU by tmTtU;
-    sub tmNna tmMatraU by tmNnU;
-    sub tmTa tmMatraU by tmTU;
-    sub tmNa tmMatraU by tmNU;
-    sub tmNnna tmMatraU by tmNnnU;
-    sub tmMa tmMatraU by tmMU;
-    sub tmRa tmMatraU by tmRU;
-    sub tmRra tmMatraU by tmRrU;
-    sub tmLa tmMatraU by tmLU;
-    sub tmLla tmMatraU by tmLlU;
-    sub tmLlla tmMatraU by tmLllU;
-} post_base_sub_1;
-
-lookup post_base_sub_2 {
-    sub tmKa tmMatraUu by tmKUu;
-    sub tmNga tmMatraUu by tmNgUu;
-    sub tmCa tmMatraUu by tmCUu;
-    sub tmNya tmMatraUu by tmNyUu;
-    sub tmTta tmMatraUu by tmTtUu;
-    sub tmNna tmMatraUu by tmNnUu;
-    sub tmTa tmMatraUu by tmTUu;
-    sub tmNa tmMatraUu by tmNUu;
-    sub tmNnna tmMatraUu by tmNnnUu;
-    sub tmPa tmMatraUu by tmPUu;
-    sub tmYa tmMatraUu by tmYUu;
-    sub tmMa tmMatraUu by tmMUu;
-    sub tmRa tmMatraUu by tmRUu;
-    sub tmRra tmMatraUu by tmRrUu;
-    sub tmLa tmMatraUu by tmLUu;
-    sub tmLla tmMatraUu by tmLlUu;
-    sub tmLlla tmMatraUu by tmLllUu;
-    sub tmVa tmMatraUu by tmVUu;
- } post_base_sub_2;
-
-lookup post_base_sub_3 {
-    sub @TML_MATRA_I_1 tmMatraI' by tmMatraI.alt1;
- } post_base_sub_3;
-
-lookup post_base_sub_4 {
-    sub @TML_MATRA_I_2 tmMatraI' by tmMatraI.alt2;
- } post_base_sub_4;
-
-lookup post_base_sub_5 {
-    sub @TML_MATRA_I_3 tmMatraI' by tmMatraI.alt3;
- } post_base_sub_5;
-
-lookup post_base_sub_6 {
-    sub @TML_MATRA_I_4 tmMatraI' by tmMatraI.alt4;
- } post_base_sub_6;
-
-lookup post_base_sub_7 {
-    sub @TML_MATRA_I_5 tmMatraI' by tmMatraI.alt5;
- } post_base_sub_7;
-
-lookup post_base_sub_8{
-    sub @TML_MATRA_I_6 tmMatraI' by tmMatraI.alt6;
- } post_base_sub_8;
-
-lookup post_base_sub_9{
-    sub @TML_MATRA_I_7 tmMatraI' by tmMatraI.alt7;
- } post_base_sub_9;
-
-lookup post_base_sub_10{
-    sub @TML_MATRA_U_1 tmMatraU' by tmMatraU.alt1;
- } post_base_sub_10;
-
-#---- SALT ----
-lookup stylistic_alternates_1 {
-    sub tmRa' tmVirama by tmMatraAa;
-    sub tmRa' tmAnusvara by tmMatraAa;
-    sub tmRa' tmMatraI by tmMatraAa;
-    sub tmRa' tmMatraIi by tmMatraAa;
-} stylistic_alternates_1;
-
-lookup stylistic_alternates_2 {
-    sub tmNna tmMatraAa by tmNnAa.alt;
-    sub tmNnna tmMatraAa by tmNnnAa.alt;
-    sub tmRra tmMatraAa by tmRrAa.alt;
-} stylistic_alternates_2;
-
-lookup stylistic_alternates_3 {
-    sub tmKa tmMatraI' by tmMatraI.stylalt1;
-    sub tmTa tmMatraI' by tmMatraI.stylalt1;
-    sub tmCa tmMatraI' by tmMatraI.stylalt1;
-    sub tmKa tmMatraI.alt5' by tmMatraI.stylalt1;
-    sub tmTa tmMatraI.alt5' by tmMatraI.stylalt1;
-    sub tmCa tmMatraI.alt4' by tmMatraI.stylalt1;
-    sub tmKa tmMatraIi' by tmMatraIi.stylalt1;
-    sub tmTa tmMatraIi' by tmMatraIi.stylalt1;
-    sub tmCa tmMatraIi' by tmMatraIi.stylalt1;
-} stylistic_alternates_3;
-
-lookup stylistic_alternates_4 {
-    sub tmMatraAi' tmNna by tmMatraAi.alt;
-    sub tmMatraAi' tmNnna by tmMatraAi.alt;
-    sub tmMatraAi' tmLa by tmMatraAi.alt;
-    sub tmMatraAi' tmLla by tmMatraAi.alt;
-} stylistic_alternates_4;
-
-##--------------- Lookups ---------------##
-
-feature aalt {
-# automatic
-feature akhn;
-feature abvs;
-feature psts;
-} aalt;
-
-feature akhn {
-  script sinh;
       lookup sin_akhands {
   sub sinKa sinVirama zerowidthjoiner sinSsa by sinKSsa;
   sub sinKa sinVirama zerowidthjoiner sinVa by sinKVa;
@@ -172,11 +17,9 @@ feature akhn {
   sub sinTta sinVirama zerowidthjoiner sinTtha by sinTtTtha;
   sub sinGa sinVirama zerowidthjoiner sinDha by sinGDha;
 } sin_akhands;
-} akhn;
 
-feature vatu {
-  script sinh;
-   lookup sin_yansaya {
+
+ lookup sin_yansaya {
   sub sinVirama zerowidthjoiner sinYa by sinYa.post;
 	} sin_yansaya;
 
@@ -208,12 +51,8 @@ feature vatu {
   sub sinNDa sinVirama zerowidthjoiner sinRa by sinNDRa;
   sub sinBa sinVirama zerowidthjoiner sinRa by sinBRa;
 	} sin_rakar;
-} vatu;
 
 
-
-feature abvs {
-script sinh;
 lookup sin_abvs {
   sub sinKa sinMatraI by sinKI;
   sub sinKha sinMatraI by sinKhI;
@@ -458,10 +297,7 @@ lookup sin_virama_2 {
    sub sinFRa sinVirama by sinFR.virama;
    sub sinBRa sinVirama by sinBR.virama;
  } sin_virama_3;
-} abvs;
 
-feature blws {
-  script sinh;
   lookup sin_blws {
   sub sinKa sinMatraU by sinKU;
   sub sinKha sinMatraU by sinKhU;
@@ -574,19 +410,13 @@ feature blws {
   sub sinDa sinMatraR by sinDvocR;
   sub sinDa sinMatraRr by sinDvocRr;
 } sin_blws;
-} blws;
 
-feature psts {
-  script sinh;
 	lookup sin_raer {
  	 sub sinRa sinMatraAe by sinRAe;
   	 sub sinRa sinMatraAae by sinRAae;
 } sin_raer;
-} psts;
 
-feature ss01 {
-  script sinh;
-	lookup ss_01 {
+lookup ss_01 {
   sub sinDa sinMatraAa by sinDAa.ss01;
   sub sinDa sinMatraAa.virama by sinDAa.virama.ss01;
   sub sinDa sinMatraAae by sinDAae.ss01;
@@ -613,87 +443,9 @@ feature ss01 {
   sub sinNya sinMatraAae by sinNyAee.ss01;
   sub sinNya sinMatraAe by sinNyAe.ss01;
 } ss_01;
-} ss01;
 
-feature akhn {
-    script taml;
-        lookup akhands;
-    script tml2;
-        lookup akhands;
-} akhn;
-
-feature abvs {
-    script taml;
-        lookup above_base_sub_1;
-        lookup above_base_sub_2;
-    script tml2;
-        lookup above_base_sub_1;
-        lookup above_base_sub_2;
-} abvs;
-
-feature psts {
-    script taml;
-        lookup post_base_sub_1;
-        lookup post_base_sub_2;
-        lookup post_base_sub_3;
-        lookup post_base_sub_4;
-        lookup post_base_sub_5;
-        lookup post_base_sub_6;
-        lookup post_base_sub_7;
-        lookup post_base_sub_8;
-        lookup post_base_sub_9;
-        lookup post_base_sub_10;
-    script tml2;
-        lookup post_base_sub_1;
-        lookup post_base_sub_2;
-        lookup post_base_sub_3;
-        lookup post_base_sub_4;
-        lookup post_base_sub_5;
-        lookup post_base_sub_6;
-        lookup post_base_sub_7;
-        lookup post_base_sub_8;
-        lookup post_base_sub_9;
-        lookup post_base_sub_10;
-} psts;
-
-feature salt {
-    script taml;
-        lookup stylistic_alternates_1;
-        lookup stylistic_alternates_2;
-        lookup stylistic_alternates_3;
-        lookup stylistic_alternates_4;
-    script tml2;
-        lookup stylistic_alternates_1;
-        lookup stylistic_alternates_2;
-        lookup stylistic_alternates_3;
-        lookup stylistic_alternates_4;
-} salt;
-
-feature ss01 {
-    script taml;
-        lookup stylistic_alternates_1;
-    script tml2;
-        lookup stylistic_alternates_1;
-} ss01;
-
-feature ss02 {
-    script taml;
-        lookup stylistic_alternates_2;
-    script tml2;
-        lookup stylistic_alternates_2;
-} ss02;
-
-feature ss03 {
-    script taml;
-        lookup stylistic_alternates_3;
-    script tml2;
-        lookup stylistic_alternates_3;
-} ss03;
-
-feature ss04 {
-    script taml;
-        lookup stylistic_alternates_4;
-    script tml2;
-        lookup stylistic_alternates_4;
-} ss04;
+feature aalt {
+# automatic
+feature akhn;
+} aalt;
 

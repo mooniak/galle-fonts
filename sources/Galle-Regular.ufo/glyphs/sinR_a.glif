@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sinRa" format="2">
-	<unicode hex="0DBB"/>
 	<advance width="393"/>
+	<unicode hex="0DBB"/>
 	<outline>
 		<contour>
 			<point x="377" y="174" type="curve" smooth="yes"/>

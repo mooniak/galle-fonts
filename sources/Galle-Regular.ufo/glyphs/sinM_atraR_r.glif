@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sinMatraRr" format="2">
-	<unicode hex="0DF2"/>
 	<advance width="444"/>
+	<unicode hex="0DF2"/>
 	<outline>
 		<component base="sinMatraR"/>
 		<component base="sinMatraR" xOffset="222"/>

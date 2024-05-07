@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sinvocalicR" format="2">
-	<unicode hex="0D8D"/>
 	<advance width="698"/>
+	<unicode hex="0D8D"/>
 	<outline>
 		<contour>
 			<point x="252" y="64" type="curve"/>

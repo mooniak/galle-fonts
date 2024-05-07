@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sinvocalicLL" format="2">
-	<unicode hex="0D90"/>
 	<advance width="858"/>
+	<unicode hex="0D90"/>
 	<outline>
 		<component base="sinvocalicL"/>
 		<component base="sinMatraLs" xOffset="593"/>

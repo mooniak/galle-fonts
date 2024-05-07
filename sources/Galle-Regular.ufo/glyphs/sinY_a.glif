@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sinYa" format="2">
-	<unicode hex="0DBA"/>
 	<advance width="517"/>
+	<unicode hex="0DBA"/>
 	<outline>
 		<contour>
 			<point x="389" y="342" type="curve" smooth="yes"/>

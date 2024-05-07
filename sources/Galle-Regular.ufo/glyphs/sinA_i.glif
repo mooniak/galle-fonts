@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sinAi" format="2">
-	<unicode hex="0D93"/>
 	<advance width="731"/>
+	<unicode hex="0D93"/>
 	<outline>
 		<component base="sinE" xOffset="300"/>
 		<component base="sinMatraE" xOffset="24"/>

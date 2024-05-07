@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ArchaicHundred" format="2">
-	<unicode hex="111F3"/>
 	<advance width="923"/>
+	<unicode hex="111F3"/>
 	<outline>
 		<contour>
 			<point x="833" y="102" type="line"/>

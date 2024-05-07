@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sinUu" format="2">
-	<unicode hex="0D8C"/>
 	<advance width="666"/>
+	<unicode hex="0D8C"/>
 	<outline>
 		<component base="sinU"/>
 		<component base="sinMatraLs" xOffset="401"/>

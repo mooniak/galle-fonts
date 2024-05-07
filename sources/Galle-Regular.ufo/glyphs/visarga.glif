@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="visarga" format="2">
-	<unicode hex="0D83"/>
 	<advance width="168"/>
+	<unicode hex="0D83"/>
 	<outline>
 		<contour>
 			<point x="151" y="67" type="curve" smooth="yes"/>

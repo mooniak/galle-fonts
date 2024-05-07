@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sinEe" format="2">
-	<unicode hex="0D92"/>
 	<advance width="467"/>
+	<unicode hex="0D92"/>
 	<outline>
 		<contour>
 			<point x="294" y="581" type="curve" smooth="yes"/>

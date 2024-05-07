@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sinOo" format="2">
-	<unicode hex="0D95"/>
 	<advance width="475"/>
+	<unicode hex="0D95"/>
 	<outline>
 		<contour>
 			<point x="458" y="168" type="curve"/>

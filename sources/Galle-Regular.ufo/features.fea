@@ -2,7 +2,7 @@
 languagesystem DFLT dflt;
 languagesystem sinh dflt;
 
-# Prefix: prefix
+# Prefix: Prefix
       lookup sin_akhands {
   sub sinKa sinVirama zerowidthjoiner sinSsa by sinKSsa;
   sub sinKa sinVirama zerowidthjoiner sinVa by sinKVa;
@@ -18,8 +18,15 @@ languagesystem sinh dflt;
   sub sinGa sinVirama zerowidthjoiner sinDha by sinGDha;
 } sin_akhands;
 
+feature rphf {
+	lookup sin_reph {
+    sub sinRa sinVirama zerowidthjoiner by sinReph;
+	} sin_reph;
+} rphf;
 
- lookup sin_yansaya {
+feature vatu {
+
+   lookup sin_yansaya {
   sub sinVirama zerowidthjoiner sinYa by sinYa.post;
 	} sin_yansaya;
 
@@ -51,8 +58,20 @@ languagesystem sinh dflt;
   sub sinNDa sinVirama zerowidthjoiner sinRa by sinNDRa;
   sub sinBa sinVirama zerowidthjoiner sinRa by sinBRa;
 	} sin_rakar;
+} vatu;
 
+feature pstf {
 
+	lookup sin_split_matra {
+  sub sinMatraEe by sinVirama;
+  sub sinMatraO by sinMatraAa;
+  sub sinMatraOo by sinMatraAa.virama;
+  sub sinMatraAu by sinMatraLs;
+} sin_split_matra;
+} pstf;
+
+feature abvs {
+script sinh;
 lookup sin_abvs {
   sub sinKa sinMatraI by sinKI;
   sub sinKha sinMatraI by sinKhI;
@@ -210,7 +229,6 @@ lookup sin_abvs {
   sub	sinDDha	sinMatraIi	by	sinDDhIi;
   sub	sinTtTtha	sinMatraIi	by	sinTtTthIi;
 } sin_abvs;
-
 lookup sin_virama_1 {
   sub sinMatraAa sinVirama by sinMatraAa.virama;
   sub sinKa sinVirama by sinK.virama;
@@ -297,6 +315,9 @@ lookup sin_virama_2 {
    sub sinFRa sinVirama by sinFR.virama;
    sub sinBRa sinVirama by sinBR.virama;
  } sin_virama_3;
+} abvs;
+
+feature blws {
 
   lookup sin_blws {
   sub sinKa sinMatraU by sinKU;
@@ -410,13 +431,19 @@ lookup sin_virama_2 {
   sub sinDa sinMatraR by sinDvocR;
   sub sinDa sinMatraRr by sinDvocRr;
 } sin_blws;
+} blws;
+
+feature psts {
 
 	lookup sin_raer {
  	 sub sinRa sinMatraAe by sinRAe;
   	 sub sinRa sinMatraAae by sinRAae;
 } sin_raer;
+} psts;
 
-lookup ss_01 {
+feature ss01 {
+
+	lookup ss_01 {
   sub sinDa sinMatraAa by sinDAa.ss01;
   sub sinDa sinMatraAa.virama by sinDAa.virama.ss01;
   sub sinDa sinMatraAae by sinDAae.ss01;
@@ -443,9 +470,5 @@ lookup ss_01 {
   sub sinNya sinMatraAae by sinNyAee.ss01;
   sub sinNya sinMatraAe by sinNyAe.ss01;
 } ss_01;
-
-feature aalt {
-# automatic
-feature akhn;
-} aalt;
+} ss01;
 

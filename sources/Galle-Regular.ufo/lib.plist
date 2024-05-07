@@ -14,7 +14,8 @@
 		<string>/sinHU.reph/sinHUu.reph</string>
 		<string>/sinThU</string>
 		<string>/NULL</string>
-		<string>க/tmKa.001</string>
+		<string>க</string>
+		<string>/sinSsRI</string>
 	</array>
 	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
 	<true/>
@@ -169,7 +170,6 @@
 		<string>CR</string>
 		<string>NULL</string>
 		<string>space</string>
-		<string>sinkundaliya</string>
 		<string>period</string>
 		<string>comma</string>
 		<string>colon</string>
@@ -199,11 +199,6 @@
 		<string>asciitilde</string>
 		<string>asciicircum</string>
 		<string>dottedcircle</string>
-		<string>sinMatraI</string>
-		<string>sinMatraIi</string>
-		<string>sinMatraU</string>
-		<string>sinMatraUu</string>
-		<string>sinVirama</string>
 		<string>anusvara</string>
 		<string>sinMatraAa</string>
 		<string>sinMatraAae</string>
@@ -212,15 +207,19 @@
 		<string>sinMatraAu</string>
 		<string>sinMatraE</string>
 		<string>sinMatraEe</string>
+		<string>sinMatraI</string>
+		<string>sinMatraIi</string>
 		<string>sinMatraLl</string>
 		<string>sinMatraLs</string>
 		<string>sinMatraO</string>
 		<string>sinMatraOo</string>
 		<string>sinMatraR</string>
 		<string>sinMatraRr</string>
+		<string>sinMatraU</string>
+		<string>sinMatraUu</string>
+		<string>sinVirama</string>
+		<string>sinkundaliya</string>
 		<string>visarga</string>
-		<string>tmKa.001</string>
-		<string>tmTa.001</string>
 		<string>notdef</string>
 		<string>null</string>
 		<string>sinAnusvara</string>
@@ -1031,11 +1030,7 @@
 		<string>uni0D8E</string>
 		<key>tmKa</key>
 		<string>uni0B95</string>
-		<key>tmKa.001</key>
-		<string>uni0B95</string>
 		<key>tmTa</key>
-		<string>uni0BA4</string>
-		<key>tmTa.001</key>
 		<string>uni0BA4</string>
 		<key>visarga</key>
 		<string>uni0D83</string>

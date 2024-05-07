@@ -56,6 +56,13 @@
 1535427681.0 metainfo.plist</string>
 	<key>public.glyphOrder</key>
 	<array>
+		<string>H</string>
+		<string>a</string>
+		<string>g</string>
+		<string>k</string>
+		<string>m</string>
+		<string>n</string>
+		<string>p</string>
 		<string>sinA</string>
 		<string>sinAa</string>
 		<string>sinAae</string>

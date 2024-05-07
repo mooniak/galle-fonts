@@ -44,6 +44,8 @@
 	<string>A_rchaicT_wo.glif</string>
 	<key>CR</key>
 	<string>C_R_.glif</string>
+	<key>H</key>
+	<string>H_.glif</string>
 	<key>LithEight</key>
 	<string>L_ithE_ight.glif</string>
 	<key>LithFive</key>
@@ -66,6 +68,8 @@
 	<string>L_ithZ_ero.glif</string>
 	<key>NULL</key>
 	<string>N_U_L_L_.glif</string>
+	<key>a</key>
+	<string>a.glif</string>
 	<key>anusvara</key>
 	<string>anusvara.glif</string>
 	<key>asciicircum</key>
@@ -104,12 +108,20 @@
 	<string>five.glif</string>
 	<key>four</key>
 	<string>four.glif</string>
+	<key>g</key>
+	<string>g.glif</string>
 	<key>greater</key>
 	<string>greater.glif</string>
 	<key>hyphen</key>
 	<string>hyphen.glif</string>
+	<key>k</key>
+	<string>k.glif</string>
 	<key>less</key>
 	<string>less.glif</string>
+	<key>m</key>
+	<string>m.glif</string>
+	<key>n</key>
+	<string>n.glif</string>
 	<key>nine</key>
 	<string>nine.glif</string>
 	<key>notdef</key>
@@ -120,6 +132,8 @@
 	<string>numbersign.glif</string>
 	<key>one</key>
 	<string>one.glif</string>
+	<key>p</key>
+	<string>p.glif</string>
 	<key>parenleft</key>
 	<string>parenleft.glif</string>
 	<key>parenright</key>

@@ -3,7 +3,7 @@ languagesystem DFLT dflt;
 languagesystem sinh dflt;
 
 # Prefix: Prefix
-      lookup sin_akhands {
+lookup sin_akhands {
   sub sinKa sinVirama zerowidthjoiner sinSsa by sinKSsa;
   sub sinKa sinVirama zerowidthjoiner sinVa by sinKVa;
   sub sinTa sinVirama zerowidthjoiner sinVa by sinTVa;
@@ -25,7 +25,6 @@ feature rphf {
 } rphf;
 
 feature vatu {
-
    lookup sin_yansaya {
   sub sinVirama zerowidthjoiner sinYa by sinYa.post;
 	} sin_yansaya;
@@ -61,7 +60,6 @@ feature vatu {
 } vatu;
 
 feature pstf {
-
 	lookup sin_split_matra {
   sub sinMatraEe by sinVirama;
   sub sinMatraO by sinMatraAa;
@@ -318,7 +316,6 @@ lookup sin_virama_2 {
 } abvs;
 
 feature blws {
-
   lookup sin_blws {
   sub sinKa sinMatraU by sinKU;
   sub sinKha sinMatraU by sinKhU;
@@ -434,7 +431,6 @@ feature blws {
 } blws;
 
 feature psts {
-
 	lookup sin_raer {
  	 sub sinRa sinMatraAe by sinRAe;
   	 sub sinRa sinMatraAae by sinRAae;
@@ -442,7 +438,6 @@ feature psts {
 } psts;
 
 feature ss01 {
-
 	lookup ss_01 {
   sub sinDa sinMatraAa by sinDAa.ss01;
   sub sinDa sinMatraAa.virama by sinDAa.virama.ss01;

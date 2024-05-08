@@ -16,23 +16,21 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 128, 1
-FONT_PATH = "fonts/ttf/Maname-Regular.ttf"
+FONT_PATH = "fonts/ttf/Galle-Regular.ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Inconsolata"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_ONE = "ABCDEFGHIJKLMNOPQ"
-LINE_TWO = "RSTUVWXYZ123456789"
-LINE_THREE = "abcdefghijklmnopqrstu"
-LINE_FOUR = "vwxyz,.;:!@#$%^&*(){}[]"
-LINE_FIVE = "අආඇඈඉඊඋඌඍඎඏඐ "
-LINE_SIX = "එඒඓඔඕඖකඛගඝඞඟච"
-LINE_SEVEN = "ඡජඣඤඥඦටඨඩඪණඬත"
-LINE_EIGHT = "ථදධනඳපඵබභමඹයරලවශ"
-LINE_NINE = "ෂසහළෆ෴"
+
+LINE_ONE = "අආඇඈඉඊඋඌඍඎඏඐ "
+LINE_TWO = "එඒඓඔඕඖකඛගඝඞඟච"
+LINE_THREE = "ඡජඣඤඥඦටඨඩඪණඬත"
+LINE_FOUR = "ථදධනඳපඵබභමඹයරලවශ"
+LINE_FIVE = "ෂසහළෆ෴Hagkmnp"
+LINE_SIX = ",.;:!@#$%^&*(){}[]"
 
 
-BIG_TEXT_FONT_SIZE = 155
+BIG_TEXT_FONT_SIZE = 200
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 13.2
 
@@ -110,10 +108,7 @@ def draw_main_text():
     text(LINE_FOUR, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 3))))
     text(LINE_FIVE, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 4))))
     text(LINE_SIX, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 5))))
-    text(LINE_SEVEN, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 6))))
-    text(LINE_EIGHT, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 7))))
-    text(LINE_NINE, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 8))))
-
+ 
 
 # Divider lines
 def draw_divider_lines():

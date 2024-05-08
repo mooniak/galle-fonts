@@ -11,7 +11,7 @@
 	<key>descender</key>
 	<integer>-184</integer>
 	<key>familyName</key>
-	<string>GalleALPHA</string>
+	<string>Galle</string>
 	<key>openTypeHeadCreated</key>
 	<string>2018/08/28 08:37:35</string>
 	<key>openTypeNameDescription</key>
@@ -19,7 +19,7 @@
 	<key>openTypeNameDesigner</key>
 	<string>Janaka CB Attanayake, Rajitha Manamperi</string>
 	<key>openTypeNameDesignerURL</key>
-	<string>http://mooniak.com/ceylon-dutch-press</string>
+	<string>http://mooniak.com/</string>
 	<key>openTypeNameLicense</key>
 	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
 	<key>openTypeNameLicenseURL</key>
@@ -29,13 +29,17 @@
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://mooniak.com</string>
 	<key>openTypeNamePreferredFamilyName</key>
-	<string>GalleALPHA</string>
+	<string>Galle</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Regular</string>
+	<key>openTypeNameUniqueID</key>
+	<string>MNIK; galle</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 0.050; ALPHA</string>
+	<string>Version 0.050; DEV; pre</string>
 	<key>openTypeOS2Type</key>
 	<array/>
+	<key>openTypeOS2VendorID</key>
+	<string>MNIK</string>
 	<key>openTypeOS2WeightClass</key>
 	<integer>400</integer>
 	<key>openTypeOS2WidthClass</key>

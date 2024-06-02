@@ -24,7 +24,7 @@ axisregistry==0.4.9
     # via
     #   fontbakery
     #   gftools
-babelfont==3.0.4
+babelfont==3.0.5
     # via
     #   collidoscope
     #   gftools
@@ -32,7 +32,7 @@ beautifulsoup4==4.12.3
     # via
     #   fontbakery
     #   gftools
-beziers==0.5.0
+beziers==0.6.0
     # via fontbakery
 blackrenderer[skia]==0.6.0
     # via diffenator2
@@ -53,7 +53,7 @@ cattrs==23.2.3
     # via
     #   statmake
     #   ufolib2
-certifi==2024.2.2
+certifi==2024.6.2
     # via
     #   requests
     #   selenium
@@ -85,11 +85,12 @@ defcon[lxml,pens]==0.10.3
     #   glyphsets
     #   mutatormath
     #   ufoprocessor
+    #   vfblib
 dehinter==4.0.0
     # via fontbakery
 deprecated==1.2.14
     # via pygithub
-diffenator2==0.3.9
+diffenator2==0.4.2
     # via gftools
 docopt==0.6.2
     # via num2words
@@ -97,7 +98,7 @@ filelock==3.14.0
     # via youseedee
 font-v==2.1.0
     # via gftools
-fontbakery[beautifulsoup4,googlefonts,googlefontsalwayslatest,shaperglot,shaping,ufo,ufo2ft]==0.12.5
+fontbakery[beautifulsoup4,googlefonts,googlefontsalwayslatest,shaperglot,shaping,ufo,ufo2ft]==0.12.6
     # via
     #   -r requirements-test.in
     #   gftools
@@ -119,7 +120,7 @@ fontparts==0.12.1
     # via ufoprocessor
 fontpens==0.2.4
     # via defcon
-fonttools[lxml,ufo,unicode,woff]==4.51.0
+fonttools[lxml,ufo,unicode,woff]==4.53.0
     # via
     #   afdko
     #   axisregistry
@@ -151,6 +152,7 @@ fonttools[lxml,ufo,unicode,woff]==4.51.0
     #   ufolib2
     #   ufolint
     #   ufoprocessor
+    #   vfblib
     #   vttlib
 freetype-py==2.3.0
     # via
@@ -160,18 +162,18 @@ fs==2.4.16
     # via
     #   fontfeatures
     #   fonttools
-gflanguages==0.6.0
+gflanguages==0.6.1
     # via
     #   diffenator2
     #   fontbakery
     #   gftools
     #   glyphsets
     #   shaperglot
-gfsubsets==2024.2.5
+gfsubsets==2024.5.9
     # via
     #   fontbakery
     #   gftools
-gftools[qa]==0.9.56
+gftools[qa]==0.9.59
     # via -r requirements-test.in
 gitdb==4.0.11
     # via gitpython
@@ -204,7 +206,7 @@ jinja2==3.1.4
     #   gftools
 kurbopy==0.10.40
     # via collidoscope
-lxml==5.2.1
+lxml==5.2.2
     # via
     #   afdko
     #   fontfeatures
@@ -312,9 +314,9 @@ pyyaml==6.0.1
     #   gftools
     #   glyphsets
     #   shaperglot
-regex==2024.4.28
+regex==2024.5.15
     # via nanoemoji
-requests==2.31.0
+requests==2.32.3
     # via
     #   fontbakery
     #   gftools
@@ -329,7 +331,11 @@ rich==13.7.1
     #   gftools
 rstr==3.2.2
     # via stringbrewer
-selenium==4.20.0
+ruamel-yaml==0.18.6
+    # via gftools
+ruamel-yaml-clib==0.2.8
+    # via ruamel-yaml
+selenium==4.21.0
     # via diffenator2
 shaperglot==0.5.0
     # via fontbakery
@@ -343,7 +349,7 @@ skia-pathops==0.8.0.post1
     #   collidoscope
     #   gftools
     #   picosvg
-skia-python==124.0b7
+skia-python==87.6
     # via blackrenderer
 smmap==5.0.1
     # via gitdb
@@ -376,7 +382,7 @@ tqdm==4.66.4
     #   afdko
     #   collidoscope
     #   diffenator2
-trio==0.25.0
+trio==0.25.1
     # via
     #   selenium
     #   trio-websocket
@@ -384,11 +390,12 @@ trio-websocket==0.11.1
     # via selenium
 ttfautohint-py==0.5.1
     # via gftools
-typing-extensions==4.11.0
+typing-extensions==4.12.1
     # via
     #   pygithub
     #   selenium
-ufo2ft[cffsubr,compreffor]==3.2.1
+    #   vfblib
+ufo2ft[cffsubr,compreffor]==3.2.4
     # via
     #   fontbakery
     #   fontmake
@@ -401,11 +408,14 @@ ufolib2[json]==0.16.0
     #   fontmake
     #   glyphslib
     #   nanoemoji
+    #   vfblib
     #   vttlib
 ufolint==1.2.0
     # via fontbakery
 ufonormalizer==0.6.1
-    # via afdko
+    # via
+    #   afdko
+    #   vfblib
 ufoprocessor==1.9.0
     # via afdko
 uharfbuzz==0.39.1
@@ -428,6 +438,8 @@ urllib3[socks]==2.2.1
     #   pygithub
     #   requests
     #   selenium
+vfblib==0.6.5
+    # via babelfont
 vharfbuzz==0.3.0
     # via
     #   fontbakery

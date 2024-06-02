@@ -1,0 +1,18 @@
+{
+glyphname = sinHAa.virama;
+layers = (
+{
+layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+shapes = (
+{
+pos = (500,0);
+ref = sinVirama;
+},
+{
+ref = sinHAa;
+}
+);
+width = 630;
+}
+);
+}

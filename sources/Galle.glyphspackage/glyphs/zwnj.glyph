@@ -1,0 +1,21 @@
+{
+glyphname = zwnj;
+layers = (
+{
+layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+shapes = (
+{
+closed = 1;
+nodes = (
+(41,6,l),
+(41,459,l),
+(17,459,l),
+(17,6,l)
+);
+}
+);
+width = 58;
+}
+);
+unicode = 8204;
+}

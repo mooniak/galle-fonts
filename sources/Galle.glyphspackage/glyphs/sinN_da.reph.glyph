@@ -1,0 +1,19 @@
+{
+glyphname = sinNda.reph;
+layers = (
+{
+layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+shapes = (
+{
+pos = (90,0);
+ref = sinReph;
+},
+{
+pos = (39,0);
+ref = sinNda;
+}
+);
+width = 475;
+}
+);
+}

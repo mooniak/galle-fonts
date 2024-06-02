@@ -1,0 +1,19 @@
+{
+glyphname = sinThRa;
+layers = (
+{
+layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+shapes = (
+{
+pos = (100,0);
+ref = sinRakar;
+},
+{
+pos = (1,0);
+ref = sinTha;
+}
+);
+width = 405;
+}
+);
+}

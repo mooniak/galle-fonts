@@ -1,0 +1,1657 @@
+{
+.appVersion = "3260";
+.formatVersion = 3;
+customParameters = (
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = descriptions;
+value = "NOT READY FOR PRODUCTION! A preview only. A font based on the typefaces by the Dutch Press in Ceylon. Read more mooniak.com/ceylon-dutch-press";
+},
+{
+name = licenses;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = preferredFamilyNames;
+value = Galle;
+},
+{
+name = uniqueID;
+value = "MNIK; galle";
+},
+{
+name = versionString;
+value = "Version 0.050; DEV; pre";
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = vendorID;
+value = MNIK;
+}
+);
+date = "2018-08-28 08:37:35 +0000";
+familyName = Galle;
+featurePrefixes = (
+{
+code = "languagesystem DFLT dflt;
+languagesystem sinh dflt;
+";
+name = Languagesystems;
+},
+{
+code = "lookup sin_akhands {
+  sub sinKa sinVirama zerowidthjoiner sinSsa by sinKSsa;
+  sub sinKa sinVirama zerowidthjoiner sinVa by sinKVa;
+  sub sinTa sinVirama zerowidthjoiner sinVa by sinTVa;
+  sub sinTa sinVirama zerowidthjoiner sinTha by sinTTha;
+  sub sinNa sinVirama zerowidthjoiner sinDa by sinNDa;
+  sub sinNa sinVirama zerowidthjoiner sinVa by sinNVa;
+  sub sinNa sinVirama zerowidthjoiner sinDha by sinNDha;
+  sub sinNa sinVirama zerowidthjoiner sinTha by sinNTha;
+  sub sinDa sinVirama zerowidthjoiner sinVa by sinDVa;
+  sub sinDa sinVirama zerowidthjoiner sinDha by sinDDha;
+  sub sinTta sinVirama zerowidthjoiner sinTtha by sinTtTtha;
+  sub sinGa sinVirama zerowidthjoiner sinDha by sinGDha;
+} sin_akhands;";
+name = Prefix;
+}
+);
+features = (
+{
+code = "	lookup sin_reph {
+    sub sinRa sinVirama zerowidthjoiner by sinReph;
+	} sin_reph;";
+tag = rphf;
+},
+{
+code = "   lookup sin_yansaya {
+  sub sinVirama zerowidthjoiner sinYa by sinYa.post;
+	} sin_yansaya;
+
+  lookup sin_rakar {
+  sub sinKa sinVirama zerowidthjoiner sinRa by sinKRa;
+  sub sinKha sinVirama zerowidthjoiner sinRa by sinKhRa;
+  sub sinGa sinVirama zerowidthjoiner sinRa by sinGRa;
+  sub sinGha sinVirama zerowidthjoiner sinRa by sinGhRa;
+  sub sinCa sinVirama zerowidthjoiner sinRa by sinCRa;
+  sub sinJa sinVirama zerowidthjoiner sinRa by sinJRa;
+  sub sinJha sinVirama zerowidthjoiner sinRa by sinJhRa;
+  sub sinNya sinVirama zerowidthjoiner sinRa by sinNyRa;
+  sub sinTta sinVirama zerowidthjoiner sinRa by sinTtRa;
+  sub sinJnya sinVirama zerowidthjoiner sinRa by sinJnyRa;
+  sub sinNdja sinVirama zerowidthjoiner sinRa by sinNdjRa;
+  sub sinDda sinVirama zerowidthjoiner sinRa by sinDdRa;
+  sub sinTa sinVirama zerowidthjoiner sinRa by sinTRa;
+  sub sinDa sinVirama zerowidthjoiner sinRa by sinDRa;
+  sub sinDha sinVirama zerowidthjoiner sinRa by sinDhRa;
+  sub sinPa sinVirama zerowidthjoiner sinRa by sinPRa;
+  sub sinBha sinVirama zerowidthjoiner sinRa by sinBhRa;
+  sub sinMa sinVirama zerowidthjoiner sinRa by sinMRa;
+  sub sinVa sinVirama zerowidthjoiner sinRa by sinVRa;
+  sub sinSha sinVirama zerowidthjoiner sinRa by sinShRa;
+  sub sinSsa sinVirama zerowidthjoiner sinRa by sinSsRa;
+  sub sinSa sinVirama zerowidthjoiner sinRa by sinSRa;
+  sub sinHa sinVirama zerowidthjoiner sinRa by sinHRa;
+  sub sinFa sinVirama zerowidthjoiner sinRa by sinFRa;
+  sub sinNDa sinVirama zerowidthjoiner sinRa by sinNDRa;
+  sub sinBa sinVirama zerowidthjoiner sinRa by sinBRa;
+	} sin_rakar;";
+tag = vatu;
+},
+{
+code = "	lookup sin_split_matra {
+  sub sinMatraEe by sinVirama;
+  sub sinMatraO by sinMatraAa;
+  sub sinMatraOo by sinMatraAa.virama;
+  sub sinMatraAu by sinMatraLs;
+} sin_split_matra;";
+tag = pstf;
+},
+{
+code = "script sinh;
+lookup sin_abvs {
+  sub sinKa sinMatraI by sinKI;
+  sub sinKha sinMatraI by sinKhI;
+  sub sinGa sinMatraI by sinGI;
+  sub sinGha sinMatraI by sinGhI;
+  sub sinNga sinMatraI by sinNgI;
+  sub sinNnga sinMatraI by sinNngI;
+  sub sinCa sinMatraI by sinCI;
+  sub sinCha sinMatraI by sinChI;
+  sub sinJa sinMatraI by sinJI;
+  sub sinJha sinMatraI by sinJhI;
+  sub sinNya sinMatraI by sinNyI;
+  sub sinJnya sinMatraI by sinJnyI;
+  sub sinNdja sinMatraI by sinNdjI;
+  sub sinTta sinMatraI by sinTtI;
+  sub sinTtha sinMatraI by sinTthI;
+  sub sinDda sinMatraI by sinDdI;
+  sub sinDdha sinMatraI by sinDdhI;
+  sub sinNna sinMatraI by sinNnI;
+  sub sinNndda sinMatraI by sinNnddI;
+  sub sinTa sinMatraI by sinTI;
+  sub sinTha sinMatraI by sinThI;
+  sub sinDa sinMatraI by sinDI;
+  sub sinDha sinMatraI by sinDhI;
+  sub sinNa sinMatraI by sinNI;
+  sub sinNda sinMatraI by sinNdI;
+  sub sinPa sinMatraI by sinPI;
+  sub sinPha sinMatraI by sinPhI;
+  sub sinBa sinMatraI by sinBI;
+  sub sinBha sinMatraI by sinBhI;
+  sub sinMa sinMatraI by sinMI;
+  sub sinMba sinMatraI by sinMbI;
+  sub sinYa sinMatraI by sinYI;
+  sub sinRa sinMatraI by sinRI;
+  sub sinLa sinMatraI by sinLI;
+  sub sinVa sinMatraI by sinVI;
+  sub sinSha sinMatraI by sinShI;
+  sub sinSsa sinMatraI by sinSsI;
+  sub sinSa sinMatraI by sinSI;
+  sub sinHa sinMatraI by sinHI;
+  sub sinLla sinMatraI by sinLlI;
+  sub sinFa sinMatraI by sinFI;
+  sub sinYa.post sinMatraI by sinYI.post;
+
+  sub sinKa sinMatraIi by sinKIi;
+  sub sinKha sinMatraIi by sinKhIi;
+  sub sinGa sinMatraIi by sinGIi;
+  sub sinGha sinMatraIi by sinGhIi;
+  sub sinNga sinMatraIi by sinNgIi;
+  sub sinNnga sinMatraIi by sinNngIi;
+  sub sinCa sinMatraIi by sinCIi;
+  sub sinCha sinMatraIi by sinChIi;
+  sub sinJa sinMatraIi by sinJIi;
+  sub sinJha sinMatraIi by sinJhIi;
+  sub sinNya sinMatraIi by sinNyIi;
+  sub sinJnya sinMatraIi by sinJnyIi;
+  sub sinNdja sinMatraIi by sinNdjIi;
+  sub sinTta sinMatraIi by sinTtIi;
+  sub sinTtha sinMatraIi by sinTthIi;
+  sub sinDda sinMatraIi by sinDdIi;
+  sub sinDdha sinMatraIi by sinDdhIi;
+  sub sinNna sinMatraIi by sinNnIi;
+  sub sinNndda sinMatraIi by sinNnddIi;
+  sub sinTa sinMatraIi by sinTIi;
+  sub sinTha sinMatraIi by sinThIi;
+  sub sinDa sinMatraIi by sinDIi;
+  sub sinDha sinMatraIi by sinDhIi;
+  sub sinNa sinMatraIi by sinNIi;
+  sub sinNda sinMatraIi by sinNdIi;
+  sub sinPa sinMatraIi by sinPIi;
+  sub sinPha sinMatraIi by sinPhIi;
+  sub sinBa sinMatraIi by sinBIi;
+  sub sinBha sinMatraIi by sinBhIi;
+  sub sinMa sinMatraIi by sinMIi;
+  sub sinMba sinMatraIi by sinMbIi;
+  sub sinYa sinMatraIi by sinYIi;
+  sub sinRa sinMatraIi by sinRIi;
+  sub sinLa sinMatraIi by sinLIi;
+  sub sinVa sinMatraIi by sinVIi;
+  sub sinSha sinMatraIi by sinShIi;
+  sub sinSsa sinMatraIi by sinSsIi;
+  sub sinSa sinMatraIi by sinSIi;
+  sub sinHa sinMatraIi by sinHIi;
+  sub sinLla sinMatraIi by sinLlIi;
+  sub sinFa sinMatraIi by sinFIi;
+  sub sinYa.post sinMatraIi by sinYIi.post;
+
+  sub sinKRa sinMatraI by sinKRI;
+  sub sinKhRa sinMatraI by sinKhRI;
+  sub sinGRa sinMatraI by sinGRI;
+  sub sinGhRa sinMatraI by sinGhRI;
+  sub sinCRa sinMatraI by sinCRI;
+  sub sinJRa sinMatraI by sinJRI;
+  sub sinJhRa sinMatraI by sinJhRI;
+  sub sinNyRa sinMatraI by sinNyRI;
+  sub sinJnyRa sinMatraI by sinJnyRI;
+  sub sinTtRa sinMatraI by sinTtRI;
+  sub sinDdRa sinMatraI by sinDdRI;
+  sub sinTRa sinMatraI by sinTRI;
+  sub sinDRa sinMatraI by sinDRI;
+  sub sinDhRa sinMatraI by sinDhRI;
+  sub sinPRa sinMatraI by sinPRI;
+  sub sinBRa sinMatraI by sinBRI;
+  sub sinBhRa sinMatraI by sinBhRI;
+  sub sinMRa sinMatraI by sinMRI;
+  sub sinVRa sinMatraI by sinVRI;
+  sub sinShRa sinMatraI by sinShRI;
+  sub sinSRa sinMatraI by sinSRI;
+  sub sinHRa sinMatraI by sinHRI;
+
+  sub sinKRa sinMatraIi by sinKRIi;
+  sub sinKhRa sinMatraIi by sinKhRIi;
+  sub sinGRa sinMatraIi by sinGRIi;
+  sub sinGhRa sinMatraIi by sinGhRIi;
+  sub sinCRa sinMatraIi by sinCRIi;
+  sub sinJRa sinMatraIi by sinJRIi;
+  sub sinJhRa sinMatraIi by sinJhRIi;
+  sub sinNyRa sinMatraIi by sinNyRIi;
+  sub sinJnyRa sinMatraIi by sinJnyRIi;
+  sub sinTtRa sinMatraIi by sinTtRIi;
+  sub sinDdRa sinMatraIi by sinDdRIi;
+  sub sinTRa sinMatraIi by sinTRIi;
+  sub sinDRa sinMatraIi by sinDRIi;
+  sub sinDhRa sinMatraIi by sinDhRIi;
+  sub sinPRa sinMatraIi by sinPRIi;
+  sub sinBRa sinMatraIi by sinBRIi;
+  sub sinBhRa sinMatraIi by sinBhRIi;
+  sub sinMRa sinMatraIi by sinMRIi;
+  sub sinVRa sinMatraIi by sinVRIi;
+  sub sinShRa sinMatraIi by sinShRIi;
+  sub sinSRa sinMatraIi by sinSRIi;
+  sub sinHRa sinMatraIi by sinHRIi;
+
+   sub	sinKSsa	sinMatraI	by	sinKSsI;
+   sub	sinKVa	sinMatraI	by	sinKVI;
+   sub	sinTVa	sinMatraI	by	sinTVI;
+   sub	sinTTha	sinMatraI	by	sinTThI;
+   sub	sinNDa	sinMatraI	by	sinNDI;
+   sub	sinNVa	sinMatraI	by	sinNVI;
+   sub	sinNDha	sinMatraI	by	sinNDhI;
+   sub	sinNTha	sinMatraI	by	sinNThI;
+   sub	sinDVa	sinMatraI	by	sinDVI;
+   sub	sinDDha	sinMatraI	by	sinDDhI;
+   sub	sinTtTtha	sinMatraI	by	sinTtTthI;
+
+  sub	sinKSsa	sinMatraIi	by	sinKSsIi;
+  sub	sinKVa	sinMatraIi	by	sinKVIi;
+  sub	sinTVa	sinMatraIi	by	sinTVIi;
+  sub	sinTTha	sinMatraIi	by	sinTThIi;
+  sub	sinNDa	sinMatraIi	by	sinNDIi;
+  sub	sinNVa	sinMatraIi	by	sinNVIi;
+  sub	sinNDha	sinMatraIi	by	sinNDhIi;
+  sub	sinNTha	sinMatraIi	by	sinNThIi;
+  sub	sinDVa	sinMatraIi	by	sinDVIi;
+  sub	sinDDha	sinMatraIi	by	sinDDhIi;
+  sub	sinTtTtha	sinMatraIi	by	sinTtTthIi;
+} sin_abvs;
+lookup sin_virama_1 {
+  sub sinMatraAa sinVirama by sinMatraAa.virama;
+  sub sinKa sinVirama by sinK.virama;
+  sub sinKha sinVirama by sinKh.virama;
+  sub sinGa sinVirama by sinG.virama;
+  sub sinGha sinVirama by sinGh.virama;
+  sub sinNga sinVirama by sinNg.virama;
+  sub sinNnga sinVirama by sinNng.virama;
+  sub sinCa sinVirama by sinC.virama;
+  sub sinCha sinVirama by sinCh.virama;
+  sub sinJa sinVirama by sinJ.virama;
+  sub sinJha sinVirama by sinJh.virama;
+  sub sinNya sinVirama by sinNy.virama;
+  sub sinJnya sinVirama by sinJny.virama;
+  sub sinNdja sinVirama by sinNdj.virama;
+  sub sinTta sinVirama by sinTt.virama;
+  sub sinTtha sinVirama by sinTth.virama;
+  sub sinDda sinVirama by sinDd.virama;
+  sub sinDdha sinVirama by sinDdh.virama;
+  sub sinNna sinVirama by sinNn.virama;
+  sub sinNndda sinVirama by sinNndd.virama;
+  sub sinTa sinVirama by sinT.virama;
+  sub sinTha sinVirama by sinTh.virama;
+  sub sinDa sinVirama by sinD.virama;
+  sub sinDha sinVirama by sinDh.virama;
+  sub sinNa sinVirama by sinN.virama;
+  sub sinNda sinVirama by sinNd.virama;
+  sub sinPa sinVirama by sinP.virama;
+  sub sinPha sinVirama by sinPh.virama;
+  sub sinBa sinVirama by sinB.virama;
+  sub sinBha sinVirama by sinBh.virama;
+  sub sinMa sinVirama by sinM.virama;
+  sub sinMba sinVirama by sinMb.virama;
+  sub sinYa sinVirama by sinY.virama;
+  sub sinRa sinVirama by sinR.virama;
+  sub sinLa sinVirama by sinL.virama;
+  sub sinVa sinVirama by sinV.virama;
+  sub sinSha sinVirama by sinSh.virama;
+  sub sinSsa sinVirama by sinSs.virama;
+  sub sinSa sinVirama by sinS.virama;
+  sub sinHa sinVirama by sinH.virama;
+  sub sinLla sinVirama by sinLl.virama;
+  sub sinFa sinVirama by sinF.virama;
+} sin_virama_1;
+
+lookup sin_virama_2 {
+  sub sinKhRa sinVirama by sinKhR.virama;
+  sub sinGRa sinVirama by sinGR.virama;
+  sub sinDVa sinVirama by sinDV.virama;
+  sub sinKVa sinVirama by sinKV.virama;
+  sub sinKSsa sinVirama by sinKSs.virama;
+  sub sinNVa sinVirama by sinNV.virama;
+  sub sinNDa  sinVirama by sinND.virama;
+  sub sinTtTtha sinVirama by sinTtTth.virama;
+  sub sinDDha sinVirama by sinDDdh.virama;
+  sub sinTVa sinVirama by sinTV.virama;
+  sub sinTTha sinVirama by sinTTh.virama;
+  sub sinNDha sinVirama by sinNDh.virama;
+  sub sinNTha sinVirama by sinNTh.virama;
+  sub sinYa.post sinVirama by sinY.post.virama;
+ } sin_virama_2;
+
+ lookup sin_virama_3 {
+   sub sinGhRa sinVirama by sinGhR.virama;
+   sub sinCRa sinVirama by sinCR.virama;
+   sub sinJRa sinVirama by sinJR.virama;
+   sub sinJhRa sinVirama by sinJhR.virama;
+   sub sinNyRa sinVirama by sinNyR.virama;
+   sub sinTtRa sinVirama by sinTtR.virama;
+   sub sinJnyRa sinVirama by sinJnyR.virama;
+   sub sinNdjRa sinVirama by sinNdjR.virama;
+   sub sinDdRa sinVirama by sinDdR.virama;
+   sub sinTRa sinVirama by sinTR.virama;
+   sub sinDRa sinVirama by sinDR.virama;
+   sub sinDhRa sinVirama by sinDhR.virama;
+   sub sinPRa sinVirama by sinPR.virama;
+   sub sinBhRa sinVirama by sinBhRa.virama;
+   sub sinMRa sinVirama by sinMR.virama;
+   sub sinVRa sinVirama by sinVR.virama;
+   sub sinShRa sinVirama by sinShR.virama;
+   sub sinSsRa sinVirama by sinSsR.virama;
+   sub sinSRa sinVirama by sinSR.virama;
+   sub sinHRa sinVirama by sinHR.virama;
+   sub sinFRa sinVirama by sinFR.virama;
+   sub sinBRa sinVirama by sinBR.virama;
+ } sin_virama_3;";
+tag = abvs;
+},
+{
+code = "  lookup sin_blws {
+  sub sinKa sinMatraU by sinKU;
+  sub sinKha sinMatraU by sinKhU;
+  sub sinGa sinMatraU by sinGU;
+  sub sinGha sinMatraU by sinGhU;
+  sub sinNnga sinMatraU by sinNngU;
+  sub sinCa sinMatraU by sinCU;
+  sub sinCha sinMatraU by sinChU;
+  sub sinJa sinMatraU by sinJU;
+  sub sinJha sinMatraU by sinJhU;
+  sub sinNya sinMatraU by sinNyU;
+  sub sinJnya sinMatraU by sinJnyU;
+  sub sinNdja sinMatraU by sinNdjU;
+  sub sinTta sinMatraU by sinTtU;
+  sub sinTtha sinMatraU by sinTthU;
+  sub sinDda sinMatraU by sinDdU;
+  sub sinDdha sinMatraU by sinDdhU;
+  sub sinNna sinMatraU by sinNnU;
+  sub sinNndda sinMatraU by sinNnddU;
+  sub sinTa sinMatraU by sinTU;
+  sub sinTha sinMatraU by sinThU;
+  sub sinDa sinMatraU by sinDU;
+  sub sinDha sinMatraU by sinDhU;
+  sub sinNa sinMatraU by sinNU;
+  sub sinNda sinMatraU by sinNdU;
+  sub sinPa sinMatraU by sinPU;
+  sub sinPha sinMatraU by sinPhU;
+  sub sinBa sinMatraU by sinBU;
+  sub sinBha sinMatraU by sinBhU;
+  sub sinMa sinMatraU by sinMU;
+  sub sinMba sinMatraU by sinMbU;
+  sub sinYa sinMatraU by sinYU;
+  sub sinRa sinMatraU by sinRU;
+  sub sinLa sinMatraU by sinLU;
+  sub sinVa sinMatraU by sinVU;
+  sub sinSha sinMatraU by sinShU;
+  sub sinSsa sinMatraU by sinSsU;
+  sub sinSa sinMatraU by sinSU;
+  sub sinHa sinMatraU by sinHU;
+  sub sinLla sinMatraU by sinLlU;
+  sub sinFa sinMatraU by sinFU;
+
+  sub	sinKSsa	sinMatraU	by	sinKSsU;
+  sub	sinKVa	sinMatraU	by	sinKVU;
+  sub	sinTVa	sinMatraU	by	sinTVU;
+  sub	sinTTha	sinMatraU	by	sinTThU;
+  sub	sinNDa	sinMatraU	by	sinNDU;
+  sub	sinNVa	sinMatraU	by	sinNVU;
+  sub	sinNDha	sinMatraU	by	sinNDhU;
+  sub	sinNTha	sinMatraU	by	sinNThU;
+  sub	sinDVa	sinMatraU	by	sinDVU;
+  sub	sinDDha	sinMatraU	by	sinDDhU;
+  sub	sinTtTtha	sinMatraU	by	sinTtTthU;
+  sub sinYa.post sinMatraU by sinYU.post;
+
+  sub sinKa sinMatraUu by sinKUu;
+  sub sinKha sinMatraUu by sinKhUu;
+  sub sinGa sinMatraUu by sinGUu;
+  sub sinGha sinMatraUu by sinGhUu;
+  sub sinNnga sinMatraUu by sinNngUu;
+  sub sinCa sinMatraUu by sinCUu;
+  sub sinCha sinMatraUu by sinChUu;
+  sub sinJa sinMatraUu by sinJUu;
+  sub sinJha sinMatraUu by sinJhUu;
+  sub sinNya sinMatraUu by sinNyUu;
+  sub sinJnya sinMatraUu by sinJnyUu;
+  sub sinNdja sinMatraUu by sinNdjUu;
+  sub sinTta sinMatraUu by sinTtUu;
+  sub sinTtha sinMatraUu by sinTthUu;
+  sub sinDda sinMatraUu by sinDdUu;
+  sub sinDdha sinMatraUu by sinDdhUu;
+  sub sinNna sinMatraUu by sinNnUu;
+  sub sinNndda sinMatraUu by sinNnddUu;
+  sub sinTa sinMatraUu by sinTUu;
+  sub sinTha sinMatraUu by sinThUu;
+  sub sinDa sinMatraUu by sinDUu;
+  sub sinDha sinMatraUu by sinDhUu;
+  sub sinNa sinMatraUu by sinNUu;
+  sub sinNda sinMatraUu by sinNdUu;
+  sub sinPa sinMatraUu by sinPUu;
+  sub sinPha sinMatraUu by sinPhUu;
+  sub sinBa sinMatraUu by sinBUu;
+  sub sinBha sinMatraUu by sinBhUu;
+  sub sinMa sinMatraUu by sinMUu;
+  sub sinMba sinMatraUu by sinMbUu;
+  sub sinYa sinMatraUu by sinYUu;
+  sub sinRa sinMatraUu by sinRUu;
+  sub sinLa sinMatraUu by sinLUu;
+  sub sinVa sinMatraUu by sinVUu;
+  sub sinSha sinMatraUu by sinShUu;
+  sub sinSsa sinMatraUu by sinSsUu;
+  sub sinSa sinMatraUu by sinSUu;
+  sub sinHa sinMatraUu by sinHUu;
+  sub sinLla sinMatraUu by sinLlUu;
+  sub sinFa sinMatraUu by sinFUu;
+
+  sub	sinKSsa	sinMatraUu	by	sinKSsUu;
+  sub	sinKVa	sinMatraUu	by	sinKVUu;
+  sub	sinTVa	sinMatraUu	by	sinTVUu;
+  sub	sinTTha	sinMatraUu	by	sinTThUu;
+  sub	sinNDa	sinMatraUu	by	sinNDUu;
+  sub	sinNVa	sinMatraUu	by	sinNVUu;
+  sub	sinNDha	sinMatraUu	by	sinNDhUu;
+  sub	sinNTha	sinMatraUu	by	sinNThUu;
+  sub	sinDVa	sinMatraUu	by	sinDVUu;
+  sub	sinDDha	sinMatraUu	by	sinDDhUu;
+  sub	sinTtTtha	sinMatraUu	by	sinTtTthUu;
+  sub sinYa.post sinMatraUu by sinYUu.post;
+
+  sub sinDa sinMatraR by sinDvocR;
+  sub sinDa sinMatraRr by sinDvocRr;
+} sin_blws;";
+tag = blws;
+},
+{
+code = "	lookup sin_raer {
+ 	 sub sinRa sinMatraAe by sinRAe;
+  	 sub sinRa sinMatraAae by sinRAae;
+} sin_raer;";
+tag = psts;
+},
+{
+code = "	lookup ss_01 {
+  sub sinDa sinMatraAa by sinDAa.ss01;
+  sub sinDa sinMatraAa.virama by sinDAa.virama.ss01;
+  sub sinDa sinMatraAae by sinDAae.ss01;
+  sub sinDa sinMatraAe by sinDAe.ss01;
+  sub sinDa sinYa.post sinMatraAa.virama by sinDYOo.post.ss01;
+  sub sinDa sinYUu.post by sinDYUu.post.ss01;
+  sub sinDa sinYa.post by sinDYa.post.ss01;
+  sub sinDa sinYa.post sinMatraAa by sinDYAa.post.ss01;
+  sub sinDa sinYU.post by sinDYu.post.ss01;
+  sub sinNda sinMatraAa by sinNdAa.ss01;
+  sub sinNda sinMatraAa.virama by sinNdAa.virama.ss01;
+  sub sinNda sinMatraAae by sinNdAae.ss01;
+  sub sinNda sinMatraAe by sinNdAe.ss01;
+  sub sinJnya sinMatraAa by sinJnyAa.ss01;
+  sub sinJnya sinMatraAa.virama by sinJnyAa.virama.ss01;
+  sub sinJnya sinMatraAae by sinJnyAee.ss01;
+  sub sinJnya sinMatraAe by sinJnyAe.ss01;
+  sub sinNDa sinMatraAa by sinNDAa.ss01;
+  sub sinNDa sinMatraAa.virama by sinNDAa.virama.ss01;
+  sub sinNDa sinMatraAae by sinNDAee.ss01;
+  sub sinNDa sinMatraAe by sinNDAe.ss01;
+  sub sinNya sinMatraAa by sinNyAa.ss01;
+  sub sinNya sinMatraAa.virama by sinNyAa.virama.ss01;
+  sub sinNya sinMatraAae by sinNyAee.ss01;
+  sub sinNya sinMatraAe by sinNyAe.ss01;
+} ss_01;";
+tag = ss01;
+}
+);
+fontMaster = (
+{
+customParameters = (
+{
+name = "Alignment Zones";
+value = (
+{
+pos = 15;
+size = 0;
+}
+);
+}
+);
+id = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+metricValues = (
+{
+over = 15;
+pos = 553;
+},
+{
+},
+{
+},
+{
+},
+{
+over = -15;
+pos = -184;
+}
+);
+name = Regular;
+userData = {
+org.unifiedfontobject.normalizer.imageReferences = {
+};
+org.unifiedfontobject.normalizer.modTimes = "version: 0.3.3.dev0
+1535427679.0 A_rchaicE_ight.glif
+1535427680.0 A_rchaicE_ighty.glif
+1535427680.0 A_rchaicF_ifty.glif
+1535427680.0 A_rchaicF_ive.glif
+1535427680.0 A_rchaicF_orty.glif
+1535427680.0 A_rchaicF_our.glif
+1535427680.0 A_rchaicH_undred.glif
+1535427679.0 A_rchaicN_ine.glif
+1535427680.0 A_rchaicN_inety.glif
+1535427680.0 A_rchaicO_ne.glif
+1535427679.0 A_rchaicS_even.glif
+1535427680.0 A_rchaicS_eventy.glif
+1535427680.0 A_rchaicS_ix.glif
+1535427680.0 A_rchaicS_ixty.glif
+1535427680.0 A_rchaicT_en.glif
+1535427679.0 A_rchaicT_hirty.glif
+1535427679.0 A_rchaicT_housand.glif
+1535427680.0 A_rchaicT_hree.glif
+1535427680.0 A_rchaicT_wenty.glif
+1535427680.0 A_rchaicT_wo.glif
+1535427680.0 C_R_.glif
+1535427680.0 L_ithE_ight.glif
+1535427679.0 L_ithF_ive.glif
+1535427680.0 L_ithF_our.glif
+1535427680.0 L_ithN_ine.glif
+1535427680.0 L_ithO_ne.glif
+1535427680.0 L_ithS_even.glif
+1535427680.0 L_ithS_ix.glif
+1535427680.0 L_ithT_hree.glif
+1535427679.0 L_ithT_wo.glif
+1535427679.0 L_ithZ_ero.glif
+1535427680.0 N_U_L_L_.glif
+1535427680.0 anusvara.glif
+1535427679.0 asciicircum.glif
+1535427679.0 asciitilde.glif
+1535427681.0 asterisk.glif
+1535427679.0 backslash.glif
+1535427679.0 bar.glif
+1535427680.0 braceleft.glif
+1535427680.0 braceright.glif
+1535427679.0 bracketleft.glif
+1535427681.0 bracketright.glif
+1535427680.0 colon.glif
+1535427679.0 comma.glif
+1535427679.0 dottedcircle.glif
+1535427680.0 eight.glif
+1535427679.0 ellipsis.glif
+1535427680.0 equal.glif
+1535427680.0 exclam.glif
+1535427680.0 five.glif
+1535427679.0 four.glif
+1535427679.0 greater.glif
+1535427680.0 hyphen.glif
+1535427680.0 less.glif
+1535427679.0 nine.glif
+1535427558.0 notdef.glif
+1535427680.0 null.glif
+1535427680.0 numbersign.glif
+1535427680.0 one.glif
+1535427680.0 parenleft.glif
+1535427680.0 parenright.glif
+1535427680.0 period.glif
+1535427680.0 plus.glif
+1535427680.0 question.glif
+1535427680.0 quotedbl.glif
+1535427680.0 quotesingle.glif
+1535427680.0 semicolon.glif
+1535427680.0 seven.glif
+1535427679.0 sinA_.glif
+1535427680.0 sinA_a.glif
+1535427680.0 sinA_ae.glif
+1535427681.0 sinA_e.glif
+1535427681.0 sinA_i.glif
+1535427558.0 sinA_nusvara.glif
+1535427680.0 sinA_u.glif
+1535427558.0 sinB_.virama.glif
+1535427558.0 sinB_I_.glif
+1535427558.0 sinB_I_i.glif
+1535427558.0 sinB_R_.virama.glif
+1535427558.0 sinB_R_I_.glif
+1535427558.0 sinB_R_I_i.glif
+1535427558.0 sinB_R_a.glif
+1535427558.0 sinB_U_.glif
+1535427558.0 sinB_U_.reph.glif
+1535427558.0 sinB_U_u.glif
+1535427558.0 sinB_U_u.reph.glif
+1535427680.0 sinB_a.glif
+1535427558.0 sinB_a.reph.glif
+1535427558.0 sinB_h.virama.glif
+1535427558.0 sinB_hA_a.glif
+1535427558.0 sinB_hA_a.virama.glif
+1535427558.0 sinB_hI_.glif
+1535427558.0 sinB_hI_i.glif
+1535427558.0 sinB_hR_.virama.glif
+1535427558.0 sinB_hR_I_.glif
+1535427558.0 sinB_hR_I_i.glif
+1535427558.0 sinB_hR_a.glif
+1535427680.0 sinB_hR_a.virama.glif
+1535427558.0 sinB_hU_.glif
+1535427558.0 sinB_hU_.reph.glif
+1535427558.0 sinB_hU_u.glif
+1535427558.0 sinB_hU_u.reph.glif
+1535427679.0 sinB_ha.glif
+1535427558.0 sinB_ha.reph.glif
+1535427558.0 sinC_.virama.glif
+1535427558.0 sinC_I_.glif
+1535427558.0 sinC_I_i.glif
+1535427558.0 sinC_R_.virama.glif
+1535427558.0 sinC_R_I_.glif
+1535427558.0 sinC_R_I_i.glif
+1535427558.0 sinC_R_a.glif
+1535427558.0 sinC_U_.glif
+1535427558.0 sinC_U_.reph.glif
+1535427558.0 sinC_U_u.glif
+1535427558.0 sinC_U_u.reph.glif
+1535427680.0 sinC_a.glif
+1535427558.0 sinC_a.reph.glif
+1535427558.0 sinC_h.virama.glif
+1535427558.0 sinC_hI_.glif
+1535427558.0 sinC_hI_i.glif
+1535427558.0 sinC_hR_.virama.glif
+1535427558.0 sinC_hR_I_.glif
+1535427558.0 sinC_hR_I_i.glif
+1535427558.0 sinC_hR_a.glif
+1535427558.0 sinC_hU_.glif
+1535427558.0 sinC_hU_.reph.glif
+1535427558.0 sinC_hU_u.glif
+1535427558.0 sinC_hU_u.reph.glif
+1535427679.0 sinC_ha.glif
+1535427558.0 sinC_ha.reph.glif
+1535427558.0 sinD_.virama.glif
+1535427679.0 sinD_A_a.ss01.glif
+1535427681.0 sinD_A_a.virama.ss01.glif
+1535427680.0 sinD_A_ae.ss01.glif
+1535427680.0 sinD_A_e.ss01.glif
+1535427680.0 sinD_D_dh.virama.glif
+1535427680.0 sinD_D_hI_.glif
+1535427680.0 sinD_D_hI_i.glif
+1535427680.0 sinD_D_hU_.glif
+1535427679.0 sinD_D_hU_u.glif
+1535427680.0 sinD_D_ha.glif
+1535427558.0 sinD_I_.glif
+1535427558.0 sinD_I_i.glif
+1535427558.0 sinD_R_.virama.glif
+1535427558.0 sinD_R_I_.glif
+1535427558.0 sinD_R_I_i.glif
+1535427558.0 sinD_R_a.alt.glif
+1535427558.0 sinD_R_a.glif
+1535427558.0 sinD_U_.glif
+1535427558.0 sinD_U_.reph.glif
+1535427558.0 sinD_U_u.glif
+1535427558.0 sinD_U_u.reph.glif
+1535427680.0 sinD_V_.virama.glif
+1535427680.0 sinD_V_I_.glif
+1535427679.0 sinD_V_I_i.glif
+1535427680.0 sinD_V_U_.glif
+1535427681.0 sinD_V_U_u.glif
+1535427680.0 sinD_V_a.glif
+1535427679.0 sinD_Y_A_a.post.ss01.glif
+1535427680.0 sinD_Y_O_o.post.ss01.glif
+1535427680.0 sinD_Y_U_u.post.ss01.glif
+1535427680.0 sinD_Y_a.post.ss01.glif
+1535427680.0 sinD_Y_u.post.ss01.glif
+1535427680.0 sinD_a.glif
+1535427558.0 sinD_a.reph.glif
+1535427558.0 sinD_d.virama.glif
+1535427558.0 sinD_dI_.glif
+1535427558.0 sinD_dI_i.glif
+1535427558.0 sinD_dR_.virama.glif
+1535427558.0 sinD_dR_I_.glif
+1535427558.0 sinD_dR_I_i.glif
+1535427558.0 sinD_dR_a.glif
+1535427558.0 sinD_dU_.glif
+1535427558.0 sinD_dU_.reph.glif
+1535427558.0 sinD_dU_u.glif
+1535427558.0 sinD_dU_u.reph.glif
+1535427680.0 sinD_da.glif
+1535427558.0 sinD_da.reph.glif
+1535427679.0 sinD_da.virama.glif
+1535427558.0 sinD_dh.virama.glif
+1535427558.0 sinD_dhI_.glif
+1535427558.0 sinD_dhI_i.glif
+1535427558.0 sinD_dhR_.virama.glif
+1535427558.0 sinD_dhR_I_.glif
+1535427558.0 sinD_dhR_I_i.glif
+1535427558.0 sinD_dhR_a.glif
+1535427558.0 sinD_dhU_.glif
+1535427558.0 sinD_dhU_.reph.glif
+1535427558.0 sinD_dhU_u.glif
+1535427558.0 sinD_dhU_u.reph.glif
+1535427679.0 sinD_dha.glif
+1535427558.0 sinD_dha.reph.glif
+1535427558.0 sinD_h.virama.glif
+1535427558.0 sinD_hI_.glif
+1535427558.0 sinD_hI_i.glif
+1535427558.0 sinD_hR_.virama.glif
+1535427558.0 sinD_hR_I_.glif
+1535427558.0 sinD_hR_I_i.glif
+1535427558.0 sinD_hR_a.glif
+1535427558.0 sinD_hU_.glif
+1535427558.0 sinD_hU_.reph.glif
+1535427558.0 sinD_hU_u.glif
+1535427558.0 sinD_hU_u.reph.glif
+1535427680.0 sinD_ha.glif
+1535427558.0 sinD_ha.reph.glif
+1535427680.0 sinD_rI_.glif
+1535427680.0 sinD_rI_i.glif
+1535427680.0 sinD_ra.glif
+1535427680.0 sinD_vocR_.glif
+1535427679.0 sinD_vocR_r.glif
+1535427679.0 sinE_.glif
+1535427679.0 sinE_e.glif
+1535427558.0 sinF_.virama.glif
+1535427558.0 sinF_A_a.glif
+1535427558.0 sinF_A_a.virama.glif
+1535427558.0 sinF_I_.glif
+1535427558.0 sinF_I_i.glif
+1535427558.0 sinF_R_.virama.glif
+1535427558.0 sinF_R_I_.glif
+1535427558.0 sinF_R_I_i.glif
+1535427558.0 sinF_R_a.glif
+1535427558.0 sinF_U_.glif
+1535427558.0 sinF_U_.reph.glif
+1535427558.0 sinF_U_u.glif
+1535427558.0 sinF_U_u.reph.glif
+1535427679.0 sinF_a.glif
+1535427558.0 sinF_a.reph.glif
+1535427558.0 sinG_.virama.glif
+1535427558.0 sinG_A_a.glif
+1535427558.0 sinG_A_a.virama.glif
+1535427681.0 sinG_D_ha.glif
+1535427558.0 sinG_I_.glif
+1535427558.0 sinG_I_i.glif
+1535427558.0 sinG_R_.virama.glif
+1535427558.0 sinG_R_I_.glif
+1535427558.0 sinG_R_I_i.glif
+1535427558.0 sinG_R_a.glif
+1535427558.0 sinG_U_.glif
+1535427558.0 sinG_U_.reph.glif
+1535427558.0 sinG_U_u.glif
+1535427558.0 sinG_U_u.reph.glif
+1535427680.0 sinG_a.glif
+1535427558.0 sinG_a.reph.glif
+1535427558.0 sinG_h.virama.glif
+1535427558.0 sinG_hI_.glif
+1535427558.0 sinG_hI_i.glif
+1535427558.0 sinG_hR_.virama.glif
+1535427558.0 sinG_hR_I_.glif
+1535427558.0 sinG_hR_I_i.glif
+1535427558.0 sinG_hR_a.glif
+1535427558.0 sinG_hU_.glif
+1535427558.0 sinG_hU_.reph.glif
+1535427558.0 sinG_hU_u.glif
+1535427558.0 sinG_hU_u.reph.glif
+1535427680.0 sinG_ha.glif
+1535427558.0 sinG_ha.reph.glif
+1535427558.0 sinH_.virama.glif
+1535427558.0 sinH_A_a.glif
+1535427558.0 sinH_A_a.virama.glif
+1535427558.0 sinH_I_.glif
+1535427558.0 sinH_I_i.glif
+1535427558.0 sinH_R_.virama.glif
+1535427558.0 sinH_R_I_.glif
+1535427558.0 sinH_R_I_i.glif
+1535427558.0 sinH_R_a.glif
+1535427558.0 sinH_U_.glif
+1535427558.0 sinH_U_.reph.glif
+1535427558.0 sinH_U_u.glif
+1535427558.0 sinH_U_u.reph.glif
+1535427680.0 sinH_a.glif
+1535427558.0 sinH_a.reph.glif
+1535427679.0 sinI_.glif
+1535427680.0 sinI_i.glif
+1535427558.0 sinJ_.virama.glif
+1535427558.0 sinJ_I_.glif
+1535427558.0 sinJ_I_i.glif
+1535427558.0 sinJ_R_.virama.glif
+1535427558.0 sinJ_R_I_.glif
+1535427558.0 sinJ_R_I_i.glif
+1535427558.0 sinJ_R_a.glif
+1535427558.0 sinJ_U_.glif
+1535427558.0 sinJ_U_.reph.glif
+1535427558.0 sinJ_U_u.glif
+1535427558.0 sinJ_U_u.reph.glif
+1535427680.0 sinJ_a.glif
+1535427558.0 sinJ_a.reph.glif
+1535427558.0 sinJ_h.virama.glif
+1535427558.0 sinJ_hI_.glif
+1535427558.0 sinJ_hI_i.glif
+1535427558.0 sinJ_hR_.virama.glif
+1535427558.0 sinJ_hR_I_.glif
+1535427558.0 sinJ_hR_I_i.glif
+1535427558.0 sinJ_hR_a.glif
+1535427558.0 sinJ_hU_.glif
+1535427558.0 sinJ_hU_.reph.glif
+1535427558.0 sinJ_hU_u.glif
+1535427558.0 sinJ_hU_u.reph.glif
+1535427679.0 sinJ_ha.glif
+1535427558.0 sinJ_ha.reph.glif
+1535427558.0 sinJ_ny.virama.glif
+1535427680.0 sinJ_nyA_a.ss01.glif
+1535427680.0 sinJ_nyA_a.virama.ss01.glif
+1535427679.0 sinJ_nyA_e.ss01.glif
+1535427680.0 sinJ_nyA_ee.ss01.glif
+1535427558.0 sinJ_nyI_.glif
+1535427558.0 sinJ_nyI_i.glif
+1535427680.0 sinJ_nyR_.virama.glif
+1535427680.0 sinJ_nyR_I_.glif
+1535427680.0 sinJ_nyR_I_i.glif
+1535427680.0 sinJ_nyR_a.glif
+1535427558.0 sinJ_nyU_.glif
+1535427558.0 sinJ_nyU_u.glif
+1535427680.0 sinJ_nya.glif
+1535427558.0 sinJ_nya.reph.glif
+1535427558.0 sinK_.virama.glif
+1535427558.0 sinK_A_a.glif
+1535427558.0 sinK_A_a.virama.glif
+1535427558.0 sinK_I_.glif
+1535427558.0 sinK_I_i.glif
+1535427558.0 sinK_R_.virama.glif
+1535427558.0 sinK_R_I_.glif
+1535427558.0 sinK_R_I_i.glif
+1535427558.0 sinK_R_a.glif
+1535427680.0 sinK_S_s.virama.glif
+1535427680.0 sinK_S_sI_.glif
+1535427680.0 sinK_S_sI_i.glif
+1535427680.0 sinK_S_sU_.glif
+1535427680.0 sinK_S_sU_u.glif
+1535427680.0 sinK_S_sa.glif
+1535427558.0 sinK_U_.glif
+1535427558.0 sinK_U_.reph.glif
+1535427558.0 sinK_U_u.glif
+1535427558.0 sinK_U_u.reph.glif
+1535427680.0 sinK_V_.virama.glif
+1535427680.0 sinK_V_I_.glif
+1535427680.0 sinK_V_I_i.glif
+1535427680.0 sinK_V_U_.glif
+1535427679.0 sinK_V_U_u.glif
+1535427680.0 sinK_V_a.glif
+1535427679.0 sinK_a.glif
+1535427558.0 sinK_a.reph.glif
+1535427558.0 sinK_h.virama.glif
+1535427558.0 sinK_hI_.glif
+1535427558.0 sinK_hI_i.glif
+1535427558.0 sinK_hR_.virama.glif
+1535427558.0 sinK_hR_I_.glif
+1535427558.0 sinK_hR_I_i.glif
+1535427558.0 sinK_hR_a.glif
+1535427558.0 sinK_hU_.glif
+1535427558.0 sinK_hU_.reph.glif
+1535427558.0 sinK_hU_u.glif
+1535427558.0 sinK_hU_u.reph.glif
+1535427679.0 sinK_ha.glif
+1535427558.0 sinK_ha.reph.glif
+1535427680.0 sinK_undaliya.glif
+1535427558.0 sinL_.virama.glif
+1535427558.0 sinL_I_.glif
+1535427558.0 sinL_I_i.glif
+1535427558.0 sinL_U_.glif
+1535427558.0 sinL_U_u.glif
+1535427680.0 sinL_a.glif
+1535427558.0 sinL_l.virama.glif
+1535427558.0 sinL_lI_.glif
+1535427558.0 sinL_lI_i.glif
+1535427558.0 sinL_lU_.glif
+1535427558.0 sinL_lU_u.glif
+1535427680.0 sinL_la.glif
+1535427558.0 sinM_.virama.glif
+1535427558.0 sinM_I_.glif
+1535427558.0 sinM_I_i.glif
+1535427679.0 sinM_R_.virama.glif
+1535427679.0 sinM_R_I_.glif
+1535427680.0 sinM_R_I_i.glif
+1535427679.0 sinM_R_a.glif
+1535427558.0 sinM_U_.glif
+1535427558.0 sinM_U_u.glif
+1535427680.0 sinM_a.glif
+1535427558.0 sinM_a.reph.glif
+1535427679.0 sinM_atraA_a.glif
+1535427558.0 sinM_atraA_a.virama.glif
+1535427680.0 sinM_atraA_ae.glif
+1535427679.0 sinM_atraA_e.glif
+1535427680.0 sinM_atraA_ea.glif
+1535427679.0 sinM_atraA_i.glif
+1535427679.0 sinM_atraA_u.glif
+1535427680.0 sinM_atraE_.glif
+1535427680.0 sinM_atraE_e.glif
+1535427680.0 sinM_atraI_.alt.glif
+1535427680.0 sinM_atraI_.alt1.glif
+1535427680.0 sinM_atraI_.alt2.glif
+1535427680.0 sinM_atraI_.alt4.glif
+1535427680.0 sinM_atraI_.glif
+1535427680.0 sinM_atraI_i.alt.glif
+1535427679.0 sinM_atraI_i.alt1.glif
+1535427679.0 sinM_atraI_i.alt2.glif
+1535427679.0 sinM_atraI_i.alt3.glif
+1535427680.0 sinM_atraI_i.glif
+1535427679.0 sinM_atraL_l.glif
+1535427679.0 sinM_atraL_s.glif
+1535427680.0 sinM_atraO_.glif
+1535427679.0 sinM_atraO_o.glif
+1535427680.0 sinM_atraR_.glif
+1535427680.0 sinM_atraR_r.glif
+1535427679.0 sinM_atraU_.alt.glif
+1535427680.0 sinM_atraU_.alt1.glif
+1535427680.0 sinM_atraU_.alt2.glif
+1535427680.0 sinM_atraU_.alt3.glif
+1535427558.0 sinM_atraU_.alt5.glif
+1535427680.0 sinM_atraU_.glif
+1535427680.0 sinM_atraU_u.alt.glif
+1535427680.0 sinM_atraU_u.alt1.glif
+1535427680.0 sinM_atraU_u.alt2.glif
+1535427680.0 sinM_atraU_u.alt3.glif
+1535427558.0 sinM_atraU_u.alt5.glif
+1535427680.0 sinM_atraU_u.glif
+1535427680.0 sinM_b.glif
+1535427558.0 sinM_b.virama.glif
+1535427558.0 sinM_bI_.glif
+1535427558.0 sinM_bI_i.glif
+1535427558.0 sinM_bU_.glif
+1535427558.0 sinM_bU_u.glif
+1535427680.0 sinM_ba.glif
+1535427558.0 sinM_ba.reph.glif
+1535427558.0 sinN_.virama.glif
+1535427558.0 sinN_A_a.glif
+1535427558.0 sinN_A_a.virama.glif
+1535427680.0 sinN_D_.virama.glif
+1535427679.0 sinN_D_A_a.ss01.glif
+1535427680.0 sinN_D_A_a.virama.ss01.glif
+1535427680.0 sinN_D_A_e.ss01.glif
+1535427680.0 sinN_D_A_ee.ss01.glif
+1535427680.0 sinN_D_I_.glif
+1535427680.0 sinN_D_I_i.glif
+1535427679.0 sinN_D_R_I_.glif
+1535427680.0 sinN_D_R_I_i.glif
+1535427679.0 sinN_D_R_a.glif
+1535427680.0 sinN_D_U_.glif
+1535427680.0 sinN_D_U_u.glif
+1535427680.0 sinN_D_a.glif
+1535427680.0 sinN_D_h.virama.glif
+1535427680.0 sinN_D_hI_.glif
+1535427680.0 sinN_D_hI_i.glif
+1535427680.0 sinN_D_hU_.glif
+1535427679.0 sinN_D_hU_u.glif
+1535427679.0 sinN_D_ha.glif
+1535427558.0 sinN_I_.glif
+1535427558.0 sinN_I_i.glif
+1535427681.0 sinN_T_h.virama.glif
+1535427680.0 sinN_T_hI_.glif
+1535427680.0 sinN_T_hI_i.glif
+1535427680.0 sinN_T_hU_.glif
+1535427679.0 sinN_T_hU_u.glif
+1535427680.0 sinN_T_ha.glif
+1535427558.0 sinN_U_.glif
+1535427558.0 sinN_U_u.glif
+1535427680.0 sinN_V_.virama.glif
+1535427680.0 sinN_V_I_.glif
+1535427680.0 sinN_V_I_i.glif
+1535427680.0 sinN_V_U_.glif
+1535427679.0 sinN_V_U_u.glif
+1535427680.0 sinN_V_a.glif
+1535427680.0 sinN_a.glif
+1535427558.0 sinN_a.reph.glif
+1535427558.0 sinN_d.virama.glif
+1535427680.0 sinN_dA_a.ss01.glif
+1535427679.0 sinN_dA_a.virama.ss01.glif
+1535427679.0 sinN_dA_ae.ss01.glif
+1535427680.0 sinN_dA_e.ss01.glif
+1535427558.0 sinN_dI_.glif
+1535427558.0 sinN_dI_i.glif
+1535427679.0 sinN_dR_a.glif
+1535427558.0 sinN_dU_.glif
+1535427558.0 sinN_dU_u.glif
+1535427680.0 sinN_da.glif
+1535427558.0 sinN_da.reph.glif
+1535427680.0 sinN_dda.glif
+1535427558.0 sinN_dj.virama.glif
+1535427558.0 sinN_djI_.glif
+1535427558.0 sinN_djI_i.glif
+1535427680.0 sinN_djR_.virama.glif
+1535427679.0 sinN_djR_a.glif
+1535427558.0 sinN_djU_.glif
+1535427558.0 sinN_djU_u.glif
+1535427680.0 sinN_dja.glif
+1535427558.0 sinN_dja.reph.glif
+1535427558.0 sinN_g.virama.glif
+1535427558.0 sinN_gI_.glif
+1535427558.0 sinN_gI_i.glif
+1535427558.0 sinN_gU_.glif
+1535427558.0 sinN_gU_u.glif
+1535427680.0 sinN_ga.glif
+1535427558.0 sinN_ga.reph.glif
+1535427558.0 sinN_n.virama.glif
+1535427558.0 sinN_nA_a.glif
+1535427558.0 sinN_nA_a.virama.glif
+1535427558.0 sinN_nI_.glif
+1535427558.0 sinN_nI_i.glif
+1535427558.0 sinN_nU_.glif
+1535427558.0 sinN_nU_u.glif
+1535427681.0 sinN_na.glif
+1535427558.0 sinN_na.reph.glif
+1535427558.0 sinN_ndd.virama.glif
+1535427558.0 sinN_nddI_.glif
+1535427558.0 sinN_nddI_i.glif
+1535427558.0 sinN_nddU_.glif
+1535427558.0 sinN_nddU_u.glif
+1535427679.0 sinN_ndda.glif
+1535427558.0 sinN_ndda.reph.glif
+1535427558.0 sinN_ng.virama.glif
+1535427558.0 sinN_ngA_a.glif
+1535427558.0 sinN_ngA_a.virama.glif
+1535427558.0 sinN_ngI_.glif
+1535427558.0 sinN_ngI_i.glif
+1535427558.0 sinN_ngU_.glif
+1535427558.0 sinN_ngU_u.glif
+1535427680.0 sinN_nga.glif
+1535427558.0 sinN_nga.reph.glif
+1535427558.0 sinN_y.virama.glif
+1535427558.0 sinN_yA_a.glif
+1535427680.0 sinN_yA_a.ss01.glif
+1535427679.0 sinN_yA_a.virama.ss01.glif
+1535427680.0 sinN_yA_e.ss01.glif
+1535427680.0 sinN_yA_ee.ss01.glif
+1535427558.0 sinN_yI_.glif
+1535427558.0 sinN_yI_i.glif
+1535427680.0 sinN_yR_.virama.glif
+1535427679.0 sinN_yR_I_.glif
+1535427680.0 sinN_yR_I_i.glif
+1535427679.0 sinN_yR_a.glif
+1535427558.0 sinN_yU_.glif
+1535427558.0 sinN_yU_u.glif
+1535427679.0 sinN_ya.glif
+1535427558.0 sinN_ya.reph.glif
+1535427679.0 sinO_.glif
+1535427679.0 sinO_o.glif
+1535427558.0 sinP_.virama.glif
+1535427558.0 sinP_I_.glif
+1535427558.0 sinP_I_i.glif
+1535427558.0 sinP_R_.virama.glif
+1535427558.0 sinP_R_I_.glif
+1535427558.0 sinP_R_I_i.glif
+1535427558.0 sinP_R_a.glif
+1535427558.0 sinP_U_.glif
+1535427558.0 sinP_U_.reph.glif
+1535427558.0 sinP_U_u.glif
+1535427558.0 sinP_U_u.reph.glif
+1535427679.0 sinP_a.glif
+1535427558.0 sinP_a.reph.glif
+1535427558.0 sinP_h.virama.glif
+1535427558.0 sinP_hI_.glif
+1535427558.0 sinP_hI_i.glif
+1535427558.0 sinP_hR_.virama.glif
+1535427558.0 sinP_hR_I_.glif
+1535427558.0 sinP_hR_I_i.glif
+1535427558.0 sinP_hR_a.glif
+1535427558.0 sinP_hU_.glif
+1535427558.0 sinP_hU_.reph.glif
+1535427558.0 sinP_hU_u.glif
+1535427558.0 sinP_hU_u.reph.glif
+1535427680.0 sinP_ha.glif
+1535427558.0 sinP_ha.reph.glif
+1535427558.0 sinR_.virama.glif
+1535427558.0 sinR_A_ae.glif
+1535427558.0 sinR_A_e.glif
+1535427558.0 sinR_I_.glif
+1535427558.0 sinR_I_i.glif
+1535427558.0 sinR_U_.glif
+1535427558.0 sinR_U_u.glif
+1535427680.0 sinR_a.glif
+1535427558.0 sinR_akar.glif
+1535427679.0 sinR_akar.long.glif
+1535427679.0 sinR_akar.medium.glif
+1535427680.0 sinR_akar.short.glif
+1535427558.0 sinR_eph.glif
+1535427558.0 sinS_.virama.glif
+1535427558.0 sinS_I_.glif
+1535427558.0 sinS_I_i.glif
+1535427558.0 sinS_R_.virama.glif
+1535427558.0 sinS_R_I_.glif
+1535427558.0 sinS_R_I_i.glif
+1535427558.0 sinS_R_a.glif
+1535427558.0 sinS_U_.glif
+1535427558.0 sinS_U_.reph.glif
+1535427558.0 sinS_U_u.glif
+1535427558.0 sinS_U_u.reph.glif
+1535427680.0 sinS_a.glif
+1535427558.0 sinS_a.reph.glif
+1535427558.0 sinS_h.virama.glif
+1535427558.0 sinS_hI_.glif
+1535427558.0 sinS_hI_i.glif
+1535427558.0 sinS_hR_.virama.glif
+1535427558.0 sinS_hR_I_.glif
+1535427558.0 sinS_hR_I_i.glif
+1535427558.0 sinS_hR_a.glif
+1535427558.0 sinS_hU_.glif
+1535427558.0 sinS_hU_.reph.glif
+1535427558.0 sinS_hU_u.glif
+1535427558.0 sinS_hU_u.reph.glif
+1535427680.0 sinS_ha.glif
+1535427558.0 sinS_ha.reph.glif
+1535427558.0 sinS_s.virama.glif
+1535427558.0 sinS_sI_.glif
+1535427558.0 sinS_sI_i.glif
+1535427558.0 sinS_sR_.virama.glif
+1535427558.0 sinS_sR_I_.glif
+1535427558.0 sinS_sR_I_i.glif
+1535427558.0 sinS_sR_a.glif
+1535427558.0 sinS_sU_.glif
+1535427558.0 sinS_sU_.reph.glif
+1535427558.0 sinS_sU_u.glif
+1535427558.0 sinS_sU_u.reph.glif
+1535427680.0 sinS_sa.glif
+1535427558.0 sinS_sa.reph.glif
+1535427558.0 sinT_.virama.glif
+1535427558.0 sinT_A_a.glif
+1535427558.0 sinT_A_a.virama.glif
+1535427558.0 sinT_I_.glif
+1535427558.0 sinT_I_i.glif
+1535427558.0 sinT_R_.virama.glif
+1535427558.0 sinT_R_I_.glif
+1535427558.0 sinT_R_I_i.glif
+1535427558.0 sinT_R_a.glif
+1535427679.0 sinT_T_h.virama.glif
+1535427680.0 sinT_T_hI_.glif
+1535427679.0 sinT_T_hI_i.glif
+1535427680.0 sinT_T_hU_.glif
+1535427679.0 sinT_T_hU_u.glif
+1535427558.0 sinT_T_ha.glif
+1535427558.0 sinT_U_.glif
+1535427558.0 sinT_U_.reph.glif
+1535427558.0 sinT_U_u.glif
+1535427558.0 sinT_U_u.reph.glif
+1535427679.0 sinT_V_.virama.glif
+1535427680.0 sinT_V_I_.glif
+1535427680.0 sinT_V_I_i.glif
+1535427680.0 sinT_V_U_.glif
+1535427679.0 sinT_V_U_u.glif
+1535427680.0 sinT_V_a.glif
+1535427680.0 sinT_a.glif
+1535427558.0 sinT_a.reph.glif
+1535427558.0 sinT_h.virama.glif
+1535427558.0 sinT_hI_.glif
+1535427558.0 sinT_hI_i.glif
+1535427558.0 sinT_hR_.virama.glif
+1535427558.0 sinT_hR_I_.glif
+1535427558.0 sinT_hR_I_i.glif
+1535427558.0 sinT_hR_a.glif
+1535427558.0 sinT_hU_.glif
+1535427558.0 sinT_hU_.reph.glif
+1535427558.0 sinT_hU_u.glif
+1535427558.0 sinT_hU_u.reph.glif
+1535427679.0 sinT_ha.glif
+1535427558.0 sinT_ha.reph.glif
+1535427558.0 sinT_t.virama.glif
+1535427558.0 sinT_tI_.glif
+1535427558.0 sinT_tI_i.glif
+1535427558.0 sinT_tR_.virama.glif
+1535427558.0 sinT_tR_I_.glif
+1535427558.0 sinT_tR_I_i.glif
+1535427558.0 sinT_tR_a.glif
+1535427680.0 sinT_tT_th.virama.glif
+1535427680.0 sinT_tT_thI_.glif
+1535427680.0 sinT_tT_thI_i.glif
+1535427680.0 sinT_tT_thU_.glif
+1535427680.0 sinT_tT_thU_u.glif
+1535427680.0 sinT_tT_tha.glif
+1535427558.0 sinT_tU_.glif
+1535427558.0 sinT_tU_.reph.glif
+1535427558.0 sinT_tU_u.glif
+1535427558.0 sinT_tU_u.reph.glif
+1535427679.0 sinT_ta.glif
+1535427558.0 sinT_ta.reph.glif
+1535427558.0 sinT_th.virama.glif
+1535427558.0 sinT_thI_.glif
+1535427558.0 sinT_thI_i.glif
+1535427558.0 sinT_thR_.virama.glif
+1535427558.0 sinT_thR_I_.glif
+1535427558.0 sinT_thR_I_i.glif
+1535427558.0 sinT_thR_a.glif
+1535427558.0 sinT_thU_.glif
+1535427558.0 sinT_thU_.reph.glif
+1535427558.0 sinT_thU_u.glif
+1535427558.0 sinT_thU_u.reph.glif
+1535427680.0 sinT_tha.glif
+1535427558.0 sinT_tha.reph.glif
+1535427679.0 sinU_.glif
+1535427679.0 sinU_u.glif
+1535427558.0 sinV_.virama.glif
+1535427558.0 sinV_I_.glif
+1535427558.0 sinV_I_i.glif
+1535427558.0 sinV_R_.virama.glif
+1535427558.0 sinV_R_I_.glif
+1535427558.0 sinV_R_I_i.glif
+1535427558.0 sinV_R_a.glif
+1535427558.0 sinV_U_.glif
+1535427558.0 sinV_U_.reph.glif
+1535427558.0 sinV_U_u.glif
+1535427558.0 sinV_U_u.reph.glif
+1535427680.0 sinV_a.glif
+1535427558.0 sinV_a.reph.glif
+1535427558.0 sinV_irama.alt.glif
+1535427680.0 sinV_irama.glif
+1535427558.0 sinV_isarga.glif
+1535427558.0 sinY_.post.virama.glif
+1535427558.0 sinY_.virama.glif
+1535427558.0 sinY_I_.glif
+1535427558.0 sinY_I_.post.glif
+1535427558.0 sinY_I_i.glif
+1535427558.0 sinY_I_i.post.glif
+1535427558.0 sinY_U_.glif
+1535427558.0 sinY_U_.post.glif
+1535427558.0 sinY_U_.post.reph.glif
+1535427558.0 sinY_U_.reph.glif
+1535427558.0 sinY_U_u.glif
+1535427558.0 sinY_U_u.post.glif
+1535427558.0 sinY_U_u.post.reph.glif
+1535427558.0 sinY_U_u.reph.glif
+1535427680.0 sinY_a.glif
+1535427558.0 sinY_a.post.glif
+1535427558.0 sinY_a.post.reph.glif
+1535427558.0 sinY_a.reph.glif
+1535427558.0 singN_aa.glif
+1535427680.0 sinkundaliya.glif
+1535427679.0 sinvocalicL_.glif
+1535427680.0 sinvocalicL_L_.glif
+1535427679.0 sinvocalicR_.glif
+1535427680.0 sinvocalicR_r.glif
+1535427679.0 six.glif
+1535427679.0 slash.glif
+1535427681.0 space.glif
+1535427680.0 three.glif
+1535427680.0 tmA_.glif
+1535427679.0 tmA_a.glif
+1535427680.0 tmA_bove.glif
+1535427680.0 tmA_i.glif
+1535427680.0 tmA_nusvara.glif
+1535427680.0 tmA_u.glif
+1535427680.0 tmA_uL_engthmark.glif
+1535427681.0 tmC_U_.glif
+1535427679.0 tmC_U_u.glif
+1535427679.0 tmC_a.glif
+1535427680.0 tmC_redit.glif
+1535427679.0 tmD_ay.glif
+1535427680.0 tmD_ebit.glif
+1535427680.0 tmE_.glif
+1535427680.0 tmE_e.glif
+1535427680.0 tmE_ight.glif
+1535427680.0 tmF_ive.glif
+1535427680.0 tmF_our.glif
+1535427679.0 tmH_a.glif
+1535427680.0 tmH_undred.glif
+1535427680.0 tmI_.glif
+1535427679.0 tmI_i.glif
+1535427679.0 tmJ_a.glif
+1535427679.0 tmK_S_sa.glif
+1535427679.0 tmK_U_.001.glif
+1535427679.0 tmK_U_.glif
+1535427680.0 tmK_U_u.glif
+1535427679.0 tmK_a.glif
+1535427679.0 tmL_I_.glif
+1535427558.0 tmL_U_.glif
+1535427558.0 tmL_U_u.glif
+1535427679.0 tmL_a.glif
+1535427558.0 tmL_lU_.glif
+1535427558.0 tmL_lU_u.glif
+1535427680.0 tmL_la.glif
+1535427558.0 tmL_llU_.glif
+1535427558.0 tmL_llU_u.glif
+1535427680.0 tmL_lla.glif
+1535427558.0 tmM_U_.glif
+1535427558.0 tmM_U_u.glif
+1535427680.0 tmM_a.glif
+1535427680.0 tmM_atraA_a.glif
+1535427679.0 tmM_atraA_i.alt.glif
+1535427680.0 tmM_atraA_i.glif
+1535427680.0 tmM_atraA_u.glif
+1535427680.0 tmM_atraE_.glif
+1535427679.0 tmM_atraE_e.glif
+1535427680.0 tmM_atraI_.alt1.glif
+1535427680.0 tmM_atraI_.alt2.glif
+1535427680.0 tmM_atraI_.alt3.glif
+1535427679.0 tmM_atraI_.alt4.glif
+1535427680.0 tmM_atraI_.alt5.glif
+1535427680.0 tmM_atraI_.alt6.glif
+1535427680.0 tmM_atraI_.alt7.glif
+1535427680.0 tmM_atraI_.glif
+1535427679.0 tmM_atraI_.stylalt1.glif
+1535427680.0 tmM_atraI_i.alt1.glif
+1535427680.0 tmM_atraI_i.glif
+1535427680.0 tmM_atraI_i.stylalt1.glif
+1535427680.0 tmM_atraO_.glif
+1535427679.0 tmM_atraO_o.glif
+1535427680.0 tmM_atraU_.alt1.glif
+1535427681.0 tmM_atraU_.glif
+1535427679.0 tmM_atraU_u.glif
+1535427679.0 tmM_onth.glif
+1535427680.0 tmN_U_.glif
+1535427680.0 tmN_U_u.glif
+1535427679.0 tmN_a.glif
+1535427558.0 tmN_gU_u.glif
+1535427680.0 tmN_ga.glif
+1535427681.0 tmN_ine.glif
+1535427680.0 tmN_nA_a.alt.glif
+1535427681.0 tmN_nU_.glif
+1535427680.0 tmN_nU_u.glif
+1535427679.0 tmN_na.glif
+1535427679.0 tmN_nnA_a.alt.glif
+1535427680.0 tmN_nnU_.glif
+1535427680.0 tmN_nnU_u.glif
+1535427680.0 tmN_nna.glif
+1535427679.0 tmN_umber.glif
+1535427558.0 tmN_yU_.glif
+1535427558.0 tmN_yU_u.glif
+1535427680.0 tmN_ya.glif
+1535427680.0 tmO_.glif
+1535427680.0 tmO_m.glif
+1535427680.0 tmO_ne.glif
+1535427680.0 tmO_o.glif
+1535427558.0 tmP_U_u.glif
+1535427679.0 tmP_a.glif
+1535427558.0 tmR_U_.glif
+1535427558.0 tmR_U_u.glif
+1535427680.0 tmR_a.glif
+1535427680.0 tmR_rA_a.alt.glif
+1535427679.0 tmR_rU_.glif
+1535427679.0 tmR_rU_u.glif
+1535427680.0 tmR_ra.glif
+1535427680.0 tmR_upee.glif
+1535427680.0 tmS_a.glif
+1535427680.0 tmS_even.glif
+1535427680.0 tmS_ha.glif
+1535427680.0 tmS_hree.glif
+1535427680.0 tmS_ix.glif
+1535427680.0 tmS_sa.glif
+1535427679.0 tmT_U_.glif
+1535427679.0 tmT_U_u.glif
+1535427680.0 tmT_a.glif
+1535427680.0 tmT_en.glif
+1535427680.0 tmT_housand.glif
+1535427680.0 tmT_hree.glif
+1535427680.0 tmT_tI_.glif
+1535427558.0 tmT_tI_i.glif
+1535427680.0 tmT_tU_.glif
+1535427680.0 tmT_tU_u.glif
+1535427680.0 tmT_ta.glif
+1535427679.0 tmT_wo.glif
+1535427679.0 tmU_.glif
+1535427679.0 tmU_u.glif
+1535427680.0 tmV_U_u.glif
+1535427680.0 tmV_a.glif
+1535427680.0 tmV_irama.glif
+1535427680.0 tmV_isarga.glif
+1535427558.0 tmY_U_u.glif
+1535427679.0 tmY_a.glif
+1535427679.0 tmY_ear.glif
+1535427680.0 tmZ_ero.glif
+1535427679.0 two.glif
+1535427679.0 underscore.glif
+1535427679.0 visarga.glif
+1535427679.0 zero.glif
+1535427679.0 zerowidthjoiner.glif
+1535427680.0 zwnj.glif";
+};
+}
+);
+instances = (
+{
+instanceInterpolations = {
+"F0029E70-666A-46B3-82F3-BCA8DA6C0FED" = 1;
+};
+name = Regular;
+properties = (
+{
+key = postscriptFontName;
+value = GalleALPHA;
+}
+);
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright (c) 2015–2018 mooniak (http://mooniak.com)  Copyright (c) 2016–2018 Janaka CB Attanayake (janakacb@gmail.com) ";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "NOT READY FOR PRODUCTION! A preview only. A font based on the typefaces by the Dutch Press in Ceylon. Read more mooniak.com/ceylon-dutch-press";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Janaka CB Attanayake, Rajitha Manamperi";
+}
+);
+},
+{
+key = designerURL;
+value = "http://mooniak.com/";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = mooniak;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://mooniak.com";
+},
+{
+key = uniqueID;
+value = "MNIK; galle";
+},
+{
+key = vendorID;
+value = MNIK;
+},
+{
+key = versionString;
+value = "Version 0.050; DEV; pre";
+}
+);
+settings = {
+disablesAutomaticAlignment = 1;
+disablesNiceNames = 1;
+};
+unitsPerEm = 1000;
+userData = {
+UFO.lib = {
+org.unifiedfontobject.normalizer.modTimes = "version: 0.3.3.dev0
+1535427681.0 fontinfo.plist
+1535428103.0 layercontents.plist
+1535427681.0 metainfo.plist";
+public.postscriptNames = {
+ArchaicEight = u111E8;
+ArchaicEighty = u111F1;
+ArchaicFifty = u111EE;
+ArchaicFive = u111E5;
+ArchaicForty = u111ED;
+ArchaicFour = u111E4;
+ArchaicHundred = u111F3;
+ArchaicNine = u111E9;
+ArchaicNinety = u111F2;
+ArchaicOne = u111E1;
+ArchaicSeven = u111E7;
+ArchaicSeventy = u111F0;
+ArchaicSix = u111E6;
+ArchaicSixty = u111EF;
+ArchaicTen = u111EA;
+ArchaicThirty = u111EC;
+ArchaicThousand = u111F4;
+ArchaicThree = u111E3;
+ArchaicTwenty = u111EB;
+ArchaicTwo = u111E2;
+LithEight = uni0DEE;
+LithFive = uni0DEB;
+LithFour = uni0DEA;
+LithNine = uni0DEF;
+LithOne = uni0DE7;
+LithSeven = uni0DED;
+LithSix = uni0DEC;
+LithThree = uni0DE9;
+LithTwo = uni0DE8;
+LithZero = uni0DE6;
+NULL = .null;
+anusvara = uni0D82;
+dottedcircle = uni25CC;
+sinA = uni0D85;
+sinAa = uni0D86;
+sinAae = uni0D88;
+sinAe = uni0D87;
+sinAi = uni0D93;
+sinAu = uni0D96;
+sinBa = uni0DB6;
+sinBha = uni0DB7;
+sinCa = uni0DA0;
+sinCha = uni0DA1;
+sinDa = uni0DAF;
+sinDda = uni0DA9;
+sinDdha = uni0DAA;
+sinDha = uni0DB0;
+sinE = uni0D91;
+sinEe = uni0D92;
+sinFa = uni0DC6;
+sinGa = uni0D9C;
+sinGha = uni0D9D;
+sinHa = uni0DC4;
+sinI = uni0D89;
+sinIi = uni0D8A;
+sinJa = uni0DA2;
+sinJha = uni0DA3;
+sinJnya = uni0DA5;
+sinKa = uni0D9A;
+sinKha = uni0D9B;
+sinLa = uni0DBD;
+sinLla = uni0DC5;
+sinMa = uni0DB8;
+sinMatraAa = uni0DCF;
+sinMatraAae = uni0DD1;
+sinMatraAe = uni0DD0;
+sinMatraAi = uni0DDB;
+sinMatraAu = uni0DDE;
+sinMatraE = uni0DD9;
+sinMatraEe = uni0DDA;
+sinMatraI = uni0DD2;
+sinMatraIi = uni0DD3;
+sinMatraLl = uni0DF3;
+sinMatraLs = uni0DDF;
+sinMatraO = uni0DDC;
+sinMatraOo = uni0DDD;
+sinMatraR = uni0DD8;
+sinMatraRr = uni0DF2;
+sinMatraU = uni0DD4;
+sinMatraUu = uni0DD6;
+sinMba = uni0DB9;
+sinNa = uni0DB1;
+sinNda = uni0DB3;
+sinNdja = uni0DA6;
+sinNga = uni0D9E;
+sinNna = uni0DAB;
+sinNndda = uni0DAC;
+sinNnga = uni0D9F;
+sinNya = uni0DA4;
+sinO = uni0D94;
+sinOo = uni0D95;
+sinPa = uni0DB4;
+sinPha = uni0DB5;
+sinRa = uni0DBB;
+sinSa = uni0DC3;
+sinSha = uni0DC1;
+sinSsa = uni0DC2;
+sinTa = uni0DAD;
+sinTha = uni0DAE;
+sinTta = uni0DA7;
+sinTtha = uni0DA8;
+sinU = uni0D8B;
+sinUu = uni0D8C;
+sinVa = uni0DC0;
+sinVirama = uni0DCA;
+sinYa = uni0DBA;
+sinkundaliya = uni0DF4;
+sinvocalicL = uni0D8F;
+sinvocalicLL = uni0D90;
+sinvocalicR = uni0D8D;
+sinvocalicRr = uni0D8E;
+tmKa = uni0B95;
+tmTa = uni0BA4;
+visarga = uni0D83;
+zerowidthjoiner = uni200D;
+zwnj = uni200C;
+};
+};
+UFOFormat = 3;
+};
+versionMajor = 0;
+versionMinor = 50;
+}

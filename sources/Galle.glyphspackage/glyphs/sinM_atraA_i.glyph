@@ -1,0 +1,19 @@
+{
+glyphname = sinMatraAi;
+layers = (
+{
+layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+shapes = (
+{
+ref = sinMatraE;
+},
+{
+pos = (307,0);
+ref = sinMatraE;
+}
+);
+width = 614;
+}
+);
+unicode = 3547;
+}

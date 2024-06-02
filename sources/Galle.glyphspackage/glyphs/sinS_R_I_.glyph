@@ -1,0 +1,19 @@
+{
+glyphname = sinSRI;
+layers = (
+{
+layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+shapes = (
+{
+pos = (200,0);
+ref = sinRakar;
+},
+{
+pos = (21,0);
+ref = sinSI;
+}
+);
+width = 539;
+}
+);
+}

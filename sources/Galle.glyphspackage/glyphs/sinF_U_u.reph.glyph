@@ -1,0 +1,19 @@
+{
+glyphname = sinFUu.reph;
+layers = (
+{
+layerId = "F0029E70-666A-46B3-82F3-BCA8DA6C0FED";
+shapes = (
+{
+pos = (110,0);
+ref = sinReph;
+},
+{
+pos = (19,0);
+ref = sinFUu;
+}
+);
+width = 548;
+}
+);
+}

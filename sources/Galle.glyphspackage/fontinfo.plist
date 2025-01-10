@@ -3,41 +3,9 @@
 .formatVersion = 3;
 customParameters = (
 {
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = descriptions;
-value = "NOT READY FOR PRODUCTION! A preview only. A font based on the typefaces by the Dutch Press in Ceylon. Read more mooniak.com/ceylon-dutch-press";
-},
-{
-name = licenses;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
-name = preferredFamilyNames;
-value = Galle;
-},
-{
-name = uniqueID;
-value = "MNIK; galle";
-},
-{
-name = versionString;
-value = "Version 0.050; DEV; pre";
-},
-{
 name = fsType;
 value = (
 );
-},
-{
-name = vendorID;
-value = MNIK;
 },
 {
 name = "Write lastChange";
@@ -49,7 +17,7 @@ value = 0;
 }
 );
 date = "2018-08-28 08:37:35 +0000";
-familyName = Galle;
+familyName = "Galle DEV";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
@@ -1432,12 +1400,6 @@ instanceInterpolations = {
 "F0029E70-666A-46B3-82F3-BCA8DA6C0FED" = 1;
 };
 name = Regular;
-properties = (
-{
-key = postscriptFontName;
-value = GalleALPHA;
-}
-);
 }
 );
 metrics = (
@@ -1517,7 +1479,7 @@ value = "http://mooniak.com";
 },
 {
 key = uniqueID;
-value = "MNIK; galle";
+value = "MNIK; galle; Version 0.060; DEV; alpha";
 },
 {
 key = vendorID;
@@ -1525,7 +1487,7 @@ value = MNIK;
 },
 {
 key = versionString;
-value = "Version 0.050; DEV; pre";
+value = "Version 0.060; DEV; alpha";
 }
 );
 settings = {
@@ -1661,5 +1623,5 @@ zwnj = uni200C;
 UFOFormat = 3;
 };
 versionMajor = 0;
-versionMinor = 50;
+versionMinor = 60;
 }

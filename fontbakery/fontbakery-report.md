@@ -1,19 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.12.6
-
-
-
-## Experimental checks
-
-These won't break the CI job for now, but will become effective after some time if nobody raises any concern.
-
-
-<details><summary>[1] Galle-Regular.ttf</summary>
-<div>
-<details>
-    <summary>⚠️ <b>WARN</b> Validate location, size and resolution of article images. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
-    <div>
+fontbakery version: 0.13.0
 
 
 
@@ -21,27 +8,14 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* ⚠️ **WARN** <p>Family metadata at fonts/ttf does not have an article.</p>
- [code: lacks-article]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-
-
-
-## All other checks
+## Check results
 
 
 
 <details><summary>[25] Galle-Regular.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
     <div>
 
 
@@ -59,25 +33,7 @@ These won't break the CI job for now, but will become effective after some time 
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Do we have the latest version of FontBakery installed? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.6, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
- [code: outdated-fontbakery]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking Vertical Metric Linegaps. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Checking Vertical Metric Linegaps. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#linegaps">linegaps</a></summary>
     <div>
 
 
@@ -88,7 +44,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 * 🔥 **FAIL** <p>OS/2 sTypoLineGap is not equal to 0.</p>
 <p><em>Overridden</em>: This check was originally a WARN but was
-overridden by the ufo profile:
+overridden by the universal profile:
 For Google Fonts, all messages from this check are considered FAILs.</p>
  [code: OS/2]
 
@@ -98,7 +54,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Name table records must not have trailing spaces. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Name table records must not have trailing spaces. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#name-trailing-spaces">name/trailing_spaces</a></summary>
     <div>
 
 
@@ -116,7 +72,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#os2-metrics-match-hhea">os2_metrics_match_hhea</a></summary>
     <div>
 
 
@@ -134,7 +90,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-glyphs">whitespace_glyphs</a></summary>
     <div>
 
 
@@ -152,7 +108,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
     <div>
 
 
@@ -170,7 +126,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Copyright notices match canonical pattern in fonts <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.copyright.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Copyright notices match canonical pattern in fonts <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-font-copyright">googlefonts/font_copyright</a></summary>
     <div>
 
 
@@ -180,7 +136,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 
 * 🔥 **FAIL** <p>Name Table entry: Copyright notices should match a pattern similar to:</p>
-<p>&quot;Copyright 2019 The Familyname Project Authors (git url)&quot;</p>
+<p>&quot;Copyright 2020 The Familyname Project Authors (git url)&quot;</p>
 <p>But instead we have got:</p>
 <p>&quot;Copyright (c) 2015–2018 mooniak (<a href="http://mooniak.com">http://mooniak.com</a>)  Copyright (c) 2016–2018 Janaka CB Attanayake (<a href="mailto:janakacb@gmail.com">janakacb@gmail.com</a>) &quot;</p>
  [code: bad-notice-format]
@@ -191,7 +147,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-font-names">googlefonts/font_names</a></summary>
     <div>
 
 
@@ -240,7 +196,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
     <div>
 
 
@@ -1097,7 +1053,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Are there non-ASCII characters in ASCII-only NAME table entries? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Version format is correct in 'name' table? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-version-format">googlefonts/name/version_format</a></summary>
     <div>
 
 
@@ -1106,30 +1062,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 
 
-* 🔥 **FAIL** <p>Bad string at [nameID 0, 'utf_16_be']: 'b'Copyright (c) 2015–2018 mooniak (<a href="http://mooniak.com">http://mooniak.com</a>)  Copyright (c) 2016–2018 Janaka CB Attanayake (<a href="mailto:janakacb@gmail.com">janakacb@gmail.com</a>) ''</p>
- [code: bad-string]
-
-
-
-* 🔥 **FAIL** <p>There are 1 strings containing non-ASCII characters in the ASCII-only NAME table entries.</p>
- [code: non-ascii-strings]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Version format is correct in 'name' table? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. Current version string is: &quot;Version 0.050; DEV; pre; ttfautohint (v1.8.4.7-5d5b)&quot;</p>
+* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. The &quot;Version &quot; prefix is a recommendation given by the OpenType spec. Current version string is: &quot;Version 0.050; DEV; pre; ttfautohint (v1.8.4.7-5d5b)&quot;</p>
  [code: bad-version-strings]
 
 
@@ -1138,7 +1071,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check font can render its own name. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure font can render its own name. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-render-own-name">googlefonts/render_own_name</a></summary>
     <div>
 
 
@@ -1156,7 +1089,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
     <div>
 
 
@@ -1174,26 +1107,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check glyphs in mark glyph class are non-spacing. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-anusvara (U+0D82), sinMatraAa (U+0DCF), sinMatraAae (U+0DD1), sinMatraAe (U+0DD0), sinMatraAi (U+0DDB), sinMatraAu (U+0DDE), sinMatraE (U+0DD9), sinMatraEe (U+0DDA), sinMatraI (U+0DD2), sinMatraIi (U+0DD3), sinMatraLl (U+0DF3), sinMatraLs (U+0DDF), sinMatraO (U+0DDC), sinMatraOo (U+0DDD), sinMatraR (U+0DD8), sinMatraRr (U+0DF2), sinMatraU (U+0DD4), sinMatraUu (U+0DD6), sinVirama (U+0DCA) and visarga (U+0D83)</p>
- [code: spacing-mark-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check GDEF mark glyph class doesn't have characters that are not marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check GDEF mark glyph class doesn't have characters that are not marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-gdef-non-mark-chars">opentype/gdef_non_mark_chars</a></summary>
     <div>
 
 
@@ -1212,7 +1126,26 @@ U+0D82, U+0D83, U+0DCF, U+0DD0, U+0DD1, U+0DD8, U+0DD9, U+0DDA, U+0DDB, U+0DDC, 
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check glyphs in mark glyph class are non-spacing. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-gdef-spacing-marks">opentype/gdef_spacing_marks</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs seem to be spacing (because they have width &gt; 0 on the hmtx table) so they may be in the GDEF mark glyph class by mistake, or they should have zero width instead:
+anusvara (U+0D82), sinMatraAa (U+0DCF), sinMatraAae (U+0DD1), sinMatraAe (U+0DD0), sinMatraAi (U+0DDB), sinMatraAu (U+0DDE), sinMatraE (U+0DD9), sinMatraEe (U+0DDA), sinMatraI (U+0DD2), sinMatraIi (U+0DD3), sinMatraLl (U+0DF3), sinMatraLs (U+0DDF), sinMatraO (U+0DDC), sinMatraOo (U+0DDD), sinMatraR (U+0DD8), sinMatraRr (U+0DF2), sinMatraU (U+0DD4), sinMatraUu (U+0DD6), sinVirama (U+0DCA) and visarga (U+0D83)</p>
+ [code: spacing-mark-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#gpos-kerning-info">gpos_kerning_info</a></summary>
     <div>
 
 
@@ -1230,7 +1163,7 @@ U+0D82, U+0D83, U+0DCF, U+0DD0, U+0DD1, U+0DD8, U+0DD9, U+0DDA, U+0DDB, U+0DDC, 
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#math-signs-width">math_signs_width</a></summary>
     <div>
 
 
@@ -1251,7 +1184,53 @@ less, greater</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
+<pre><code>* ArchaicEight (U+111E8): L&lt;&lt;199.0,-114.0&gt;--&lt;199.0,-114.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ArchaicSixty (U+111EF): B&lt;&lt;489.5,18.0&gt;-&lt;489.0,19.0&gt;-&lt;490.0,16.0&gt;&gt; has the same coordinates as a previous segment.
+
+* sinGRI: L&lt;&lt;371.0,298.0&gt;--&lt;371.0,298.0&gt;&gt; has the same coordinates as a previous segment.
+
+* sinRAae: B&lt;&lt;189.5,597.0&gt;-&lt;190.0,597.0&gt;-&lt;188.0,596.0&gt;&gt; has the same coordinates as a previous segment.
+
+* sinNndda.reph: L&lt;&lt;238.0,512.0&gt;--&lt;238.0,512.0&gt;&gt; has the same coordinates as a previous segment.
+</code></pre>
+ [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure Stylistic Sets have description. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#stylisticset-description">stylisticset_description</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The stylistic set ss01 lacks a description string on the 'name' table.</p>
+ [code: missing-description]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
     <div>
 
 
@@ -1633,7 +1612,25 @@ less, greater</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Family metadata at fonts/ttf does not have an article.</p>
+ [code: lacks-article]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-colinear-vectors">outline_colinear_vectors</a></summary>
     <div>
 
 
@@ -1697,7 +1694,7 @@ less, greater</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-jaggy-segments">outline_jaggy_segments</a></summary>
     <div>
 
 
@@ -1917,7 +1914,7 @@ less, greater</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-semi-vertical">outline_semi_vertical</a></summary>
     <div>
 
 
@@ -1941,7 +1938,7 @@ less, greater</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
     <div>
 
 
@@ -1959,25 +1956,7 @@ less, greater</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure Stylistic Sets have description. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gsub.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The stylistic set ss01 lacks a description string on the 'name' table.</p>
- [code: missing-description]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vendor-id">googlefonts/vendor_id</a></summary>
     <div>
 
 
@@ -1999,7 +1978,7 @@ less, greater</p>
 <details><summary>[1] Family checks</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-use-typo-metrics">googlefonts/use_typo_metrics</a></summary>
     <div>
 
 
@@ -2025,8 +2004,8 @@ less, greater</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 15 | 12 | 121 | 7 | 96 | 0 | 
-| 0% | 0% | 6% | 5% | 48% | 3% | 38% | 0% | 
+| 0 | 0 | 13 | 13 | 112 | 6 | 94 | 0 | 
+| 0% | 0% | 5% | 5% | 47% | 3% | 39% | 0% | 
 
 
 

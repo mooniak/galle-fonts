@@ -38,6 +38,14 @@ value = (
 {
 name = vendorID;
 value = MNIK;
+},
+{
+name = "Write lastChange";
+value = 0;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
 }
 );
 date = "2018-08-28 08:37:35 +0000";

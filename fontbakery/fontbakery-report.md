@@ -38,64 +38,8 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[26] Galle-Regular.ttf</summary>
+<details><summary>[25] Galle-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+0048: LATIN CAPITAL LETTER H</td>
-<td align="left">U+0068: LATIN SMALL LETTER H</td>
-</tr>
-<tr>
-<td align="left">U+0061: LATIN SMALL LETTER A</td>
-<td align="left">U+0041: LATIN CAPITAL LETTER A</td>
-</tr>
-<tr>
-<td align="left">U+0067: LATIN SMALL LETTER G</td>
-<td align="left">U+0047: LATIN CAPITAL LETTER G</td>
-</tr>
-<tr>
-<td align="left">U+006B: LATIN SMALL LETTER K</td>
-<td align="left">U+004B: LATIN CAPITAL LETTER K</td>
-</tr>
-<tr>
-<td align="left">U+006D: LATIN SMALL LETTER M</td>
-<td align="left">U+004D: LATIN CAPITAL LETTER M</td>
-</tr>
-<tr>
-<td align="left">U+006E: LATIN SMALL LETTER N</td>
-<td align="left">U+004E: LATIN CAPITAL LETTER N</td>
-</tr>
-<tr>
-<td align="left">U+0070: LATIN SMALL LETTER P</td>
-<td align="left">U+0050: LATIN CAPITAL LETTER P</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -108,6 +52,24 @@ These won't break the CI job for now, but will become effective after some time 
 
 * 🔥 **FAIL** <p>OS/2.usWinDescent value should be equal or greater than 333, but got 184 instead</p>
  [code: descent]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Do we have the latest version of FontBakery installed? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.6, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+ [code: outdated-fontbakery]
 
 
 
@@ -321,6 +283,9 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 - 0x0047 (LATIN CAPITAL LETTER G)
 
 
+- 0x0048 (LATIN CAPITAL LETTER H)
+
+
 - 0x0049 (LATIN CAPITAL LETTER I)
 
 
@@ -378,6 +343,9 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 - 0x0060 (GRAVE ACCENT)
 
 
+- 0x0061 (LATIN SMALL LETTER A)
+
+
 - 0x0062 (LATIN SMALL LETTER B)
 
 
@@ -393,6 +361,9 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 - 0x0066 (LATIN SMALL LETTER F)
 
 
+- 0x0067 (LATIN SMALL LETTER G)
+
+
 - 0x0068 (LATIN SMALL LETTER H)
 
 
@@ -402,10 +373,22 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 - 0x006A (LATIN SMALL LETTER J)
 
 
+- 0x006B (LATIN SMALL LETTER K)
+
+
 - 0x006C (LATIN SMALL LETTER L)
 
 
+- 0x006D (LATIN SMALL LETTER M)
+
+
+- 0x006E (LATIN SMALL LETTER N)
+
+
 - 0x006F (LATIN SMALL LETTER O)
+
+
+- 0x0070 (LATIN SMALL LETTER P)
 
 
 - 0x0071 (LATIN SMALL LETTER Q)
@@ -1664,8 +1647,6 @@ less, greater</p>
 
 * ArchaicSeven (U+111E7): L&lt;&lt;452.0,-7.0&gt;--&lt;451.0,-7.0&gt;&gt; -&gt; L&lt;&lt;451.0,-7.0&gt;--&lt;400.0,-7.0&gt;&gt;
 
-* m (U+006D): L&lt;&lt;384.0,295.0&gt;--&lt;384.0,292.0&gt;&gt; -&gt; L&lt;&lt;384.0,292.0&gt;--&lt;384.0,119.0&gt;&gt;
-
 * sinDhU.reph: L&lt;&lt;149.0,512.0&gt;--&lt;152.0,512.0&gt;&gt; -&gt; L&lt;&lt;152.0,512.0&gt;--&lt;153.0,512.0&gt;&gt;
 
 * sinDhU.reph: L&lt;&lt;152.0,512.0&gt;--&lt;153.0,512.0&gt;&gt; -&gt; L&lt;&lt;153.0,512.0&gt;--&lt;158.0,512.0&gt;&gt;
@@ -1960,33 +1941,6 @@ less, greater</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+0B95 TAMIL LETTER KA: try adding tamil</li>
-<li>U+0BA4 TAMIL LETTER TA: try adding tamil</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>sinhala</code></p>
- [code: unreachable-subsetting]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
     <div>
 
@@ -2071,7 +2025,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 15 | 13 | 121 | 7 | 95 | 0 | 
+| 0 | 0 | 15 | 12 | 121 | 7 | 96 | 0 | 
 | 0% | 0% | 6% | 5% | 48% | 3% | 38% | 0% | 
 
 
